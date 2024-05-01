@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  1 MAY 2024 07:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  1 MAY 2024 07:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1233,7 +1233,12 @@ Overfull \hbox (4.46844pt too wide) in paragraph at lines 790--791
  []
 
 
-Overfull \hbox (197.67648pt too wide) in paragraph at lines 809--812
+Underfull \hbox (badness 10000) in paragraph at lines 796--800
+
+ []
+
+
+Overfull \hbox (197.67648pt too wide) in paragraph at lines 816--819
 \OT1/phv/m/n/12 d[]ar $\OML/cmm/m/it/12 s[]$ []\OT1/phv/m/n/12 ar []ovre gr[]an
 sen f[]or str[]ackan.  [] 
  []
@@ -1278,7 +1283,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [14]
-Overfull \hbox (9.26245pt too wide) in paragraph at lines 880--881
+Overfull \hbox (9.26245pt too wide) in paragraph at lines 890--891
 \OT1/phv/m/n/12 En po-ten-ti-ell ener-gi []ar en po-ten-ti-al-funk-tion till et
 t kraftf[]alt.
  []
@@ -1297,24 +1302,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [15]
-Overfull \hbox (1.4035pt too wide) in paragraph at lines 907--908
-\OT1/phv/m/n/12 ef-ter kol-li-sio-nen) - studs-tal $\OT1/cmr/m/n/12 1$\OT1/phv/
-m/n/12 , [] \OT1/phv/m/sl/12 mi-ni-mal [] \OT1/phv/m/n/12 ener-gif[]orlust 
- []
-
-
-Overfull \hbox (33.77199pt too wide) in paragraph at lines 908--909
-[]\OT1/phv/m/sl/12 inelastisk  \OT1/phv/m/n/12 (par-tik-lar-na r[]or sig som en
- sam-manh[]angande
- []
-
-
-Overfull \hbox (4.42804pt too wide) in paragraph at lines 908--909
-\OT1/phv/m/n/12 mas-sa ef-ter kol-li-sio-nen) - studs-tal $\OT1/cmr/m/n/12 0$\O
-T1/phv/m/n/12 , [] \OT1/phv/m/sl/12 max-i-mal [] \OT1/phv/m/n/12 ener-
- []
-
-
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
  [][][][][][][] 
  []
@@ -1328,17 +1315,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [16]
+Overfull \hbox (1.4035pt too wide) in paragraph at lines 914--915
+\OT1/phv/m/n/12 ef-ter kol-li-sio-nen) - studs-tal $\OT1/cmr/m/n/12 1$\OT1/phv/
+m/n/12 , [] \OT1/phv/m/sl/12 mi-ni-mal [] \OT1/phv/m/n/12 ener-gif[]orlust 
+ []
+
+
+Overfull \hbox (33.77199pt too wide) in paragraph at lines 915--916
+[]\OT1/phv/m/sl/12 inelastisk  \OT1/phv/m/n/12 (par-tik-lar-na r[]or sig som en
+ sam-manh[]angande
+ []
+
+
+Overfull \hbox (4.42804pt too wide) in paragraph at lines 915--916
+\OT1/phv/m/n/12 mas-sa ef-ter kol-li-sio-nen) - studs-tal $\OT1/cmr/m/n/12 0$\O
+T1/phv/m/n/12 , [] \OT1/phv/m/sl/12 max-i-mal [] \OT1/phv/m/n/12 ener-
+ []
+
 <snedstöt.png, id=501, 299.1175pt x 271.0125pt>
 File: snedstöt.png Graphic file (type png)
 <use snedstöt.png>
-Package pdftex.def Info: snedstöt.png  used on input line 929.
+Package pdftex.def Info: snedstöt.png  used on input line 936.
 (pdftex.def)             Requested size: 118.30423pt x 107.18729pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.930     \caption{Snedstöt.}
+l.937     \caption{Snedstöt.}
                               
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
  [][][][][][][] 
@@ -1371,7 +1375,7 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 85130735FCC36A0899D21A84425D7E44;15115.
+(rerunfilecheck)             Checksum: 90EBEB10E963D50603DF029698CD18C4;15115.
  ) 
 Here is how much of TeX's memory you used:
  24697 strings out of 474104
@@ -1380,7 +1384,7 @@ Here is how much of TeX's memory you used:
  46478 multiletter control sequences out of 15000+600000
  598765 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,87p,519b,881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,87p,519b,860s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></op
 t/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></opt/texl
 ive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/t
@@ -1404,7 +1408,7 @@ s/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/urw
 /helvetic/uhvbo8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/urw/helvetic/
 uhvr8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb
 ></opt/texlive/texdir/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on main.pdf (18 pages, 341700 bytes).
+Output written on main.pdf (18 pages, 342368 bytes).
 PDF statistics:
  647 PDF objects out of 1000 (max. 8388607)
  567 compressed objects within 6 object streams
