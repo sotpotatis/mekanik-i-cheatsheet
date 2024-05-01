@@ -39,7 +39,8 @@
 }
 \color{ProcessBlue}\rule{\textwidth}{2pt}
 }
-\newenvironment{ankiflashcard}[1][ ]{}{}
+\newcommand{\dummyargument}{}
+\newenvironment{ankiflashcard}[1]{}{}
 \usepackage{blindtext}
 \usepackage{paracol}
 % Column configuration
@@ -51,7 +52,7 @@
 \setcounter{secnumdepth}{0}
 \title{Mekanik I - Sammanfattning}
 \date{}
-% Own comma*nds
+% Own commands
 \newcommand{\ruler}{
 \rule{0.5\textwidth}{0.5pt}
 }
@@ -146,7 +147,7 @@ $$
 \end{itemize}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1243539431
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Ange formeln för dubbla kryssprodukten.}
 \subsubsection{Dubbla kryssprodukten:}
 $$
 \vec a \times \vec b \times \vec c =\vec b(\vec a \times \vec c)-\vec c(\vec a \cdot \vec b)
@@ -156,14 +157,14 @@ $$
 \section{Olika typer av kraftsystem}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1190208710
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Vad är ekvivalenta kraftsystem? Vad kännetecknas de av?}
 \subsection{Ekvivalenta kraftsystem}
 Relation mellan två system där kraftsumman \textit{och} momentsumman är densamma.
 \ruler
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1526209209
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Vad är ekvimomenta kraftsystem? Vad kännetecknas de av?}
 \subsection{Ekvimomenta kraftsystem}
 Ett system där:
 \begin{enumerate}
@@ -174,7 +175,7 @@ $\rightarrow$ \underline{Ekvimomenta} kraftsystem är \underline{ekvivalenta}.
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1549934742
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Vad är ett kraftpar, och vad kännetecknar kraftparet?}
     
 \subsection{Kraftpar}
 Kraftpar är ett kraftsystem som består av två lika stora och motriktade krafter.
@@ -189,10 +190,11 @@ eller på vektorform: $\vec{r_{BA}} = M_O \times F_1$
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1730687558
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Ange formeln och definitionen för reduktionsresultat.}
 \subsection{Reduktionsresultatet}
 Innebär att vi \textit{reducerar} ett komplext kraftsystem till att bestå bara av \textit{\underline{en} kraft} och \textit{\underline{ett} moment}. Resultatet kallas ett reduktionsresultat med avseende på en punkt $P$.
-
+\end{ankiflashcard}
+\begin{ankiflashcard}{Ange formeln för erättningsmoment}
 Varje gång vi flyttar en kraft för att reducera kraftsystemet, måste vi lägga till ett moment för att  kompensera för flytten, ett \newline
 \textbf{ersättningsmoment:}
 $$
@@ -204,6 +206,8 @@ Se figur nedan för beteckningar:
     \includegraphics[width=0.2\textwidth]{ersättningsmoment.png}
     \caption{Ersättningsmoment}
 \end{figure}
+\end{ankiflashcard}
+\begin{ankiflashcard}{Definera kraftsumma och momentsumma vid reduktionsresultat.}
 Om vi flyttar alla krafter till samma punkt, får vi en \textbf{total kraftsumma vid reduktionsresultat:}
 $$
 \vec F = \overset{n}{\underset{n=1}{\sum}} \vec F_n
@@ -221,21 +225,21 @@ $$
 }
 
 \end{ankiflashcard}
-\
 
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1539929808
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Ange formeln för flytt av reduktionsresultat.}
     \textit{Flytt av reduktionsresultat} ger att momentsumman ändras enligt \textbf{sambandsformeln:}
 $$
 \vec M_B = \vec M_A + \vec{r_{BA}} \times \vec F\left\{\begin{array}{l}\vec M_B: \text{Momentet i ny punkt} \\\vec M_A: \text{Moment i tidigare punkt} \\\vec r_{BA}: \text{Avstånd mellan tidigare och ny punkt} \\\vec F: \text{Ersättnings-/reduktionskraft} \\\end{array}\right.$$
 \end{ankiflashcard}
 \ruler
 
-% DONOTREMOVE ANKI-FLASHCARD GUID 1846629937
-\begin{ankiflashcard}
 \section{Pappus regler}
 Pappus regler kan användas för att förenkla integraler över masscentrum.
+
+% DONOTREMOVE ANKI-FLASHCARD GUID 1846629937
+\begin{ankiflashcard}{Formulera Pappus arearegel.}
 \subsection{Pappus arearegel}
 Gäller för en massbelagd kurva $\mathcal C$ som ligger på $xy$-planet.
 $$
@@ -247,7 +251,7 @@ Exempel: du använder Pappus arearegel för en halvcirkelbåge. Då är rotation
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1585744448
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Formulera Pappus volymregel.}
     \subsection{Pappus volymregel}
 Samma koncept som arearegeln, gäller en massbelagd yta med arean $A$.
 $$
@@ -270,7 +274,7 @@ Konceptet av friläggning handlar om att välja hur man ska dela upp ett problem
 \begin{ankiflashcard}
     
 \subsection{Frihetsgrader}
-\subsubsection{Frihetsgrader i 3D}
+\subsubsection{Frihetsgrader i 3D}{Vilka frihetsgrader finns i 3D?}
 
 \begin{enumerate}[label*=\protect\fbox{\arabic{enumi}}]
 \item translation kring x-axeln
@@ -284,7 +288,7 @@ Konceptet av friläggning handlar om att välja hur man ska dela upp ett problem
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1293290979
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Vilka frietsgrader finns i 2D?}
     
 \subsubsection{Frihetsgrader i 2D}
 \begin{enumerate}[label*=\protect\fbox{\arabic{enumi}}]
@@ -299,7 +303,7 @@ Konceptet av friläggning handlar om att välja hur man ska dela upp ett problem
 Friktionskraften är en kraft som uppkommer i kontakt mellan två ytor och är parallell med ytan där friktionen uppstår.
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1958068440
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Ange formeln/definitionen för friktionskraft.}
 \subsection{Friktionskraft}
 Maximala friktionskraften ges av
 $$
@@ -311,7 +315,7 @@ Det finns ett statiskt friktionstal och ett kinematiskt friktionstal, dock kan m
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 2067580333
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Ange jämviktsvillkor (friktion)}
 \subsection{Jämvikt och glidning}
 Om friktionskraftens storlek är enligt
 $$
@@ -321,7 +325,7 @@ gäller så har vi \textit{jämvikt}. \textbf{Observera} alltså att storleken p
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1669719265
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Ange glidningsvillkor (friktion)}
 Vid $$F=\mu_kN$$ så börjar vi ha \textit{glidning}. Dvs. när
 $$
 F > \mu_k N \approx \mu N
@@ -329,7 +333,7 @@ $$
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1384999898
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Ange själpningsvillkor (friktion)}
 \subsubsection{Stjälpningsvillkor}
 Normalkraften på ett objekt kan angripa utanför objektet. Det går alltså att formulera villkoret 
 $$r_N\leq L$$
@@ -338,7 +342,7 @@ där $r_N$ är avståndet mellan objektets hörn till normalkraften, och $L$ är
 \switchcolumn
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1131365315
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Hur definieras moment? (generella definitionen)}
 \section{Moment}
 \subsection{Allmän formel}
 Momentet för en kraft i en punkt $A$:
@@ -354,7 +358,7 @@ där $d$ är det \textit{vinkelräta avståndet} (hävarmen) som kraften har på
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1754604283
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Hur definieras momentet med avseende på en axel?}
     
 \subsection{Moment med avseende på en axel}
 $$
@@ -363,7 +367,7 @@ $$
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1660318753
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Vad finns för generella regler kring moment?}
 \subsection{Övriga momentrelaterade samband}
 Observera att \textit{en kraft har samma moment längs hela sin verkningslinje}. Att flytta en kraft längs med sin verkningslinje kan förenkla beräkningar.
 \end{ankiflashcard}
@@ -384,16 +388,18 @@ $T$&\text{Tid}\\
 
 \textit{Anmärkning: } dimensionen av en storhet betecknas $[storhet]$, t.ex. $[s]=L$.
 Alternativ beteckning: $dim \text{storhet}$, t.ex. $dim s=L$
-
+\begin{ankiflashcard}{Ange dimensioner för några klassiska storheter i mekaniken (hastighet, acceleration, kraft).}
+    
 \textbf{Exempel:}
 \begin{itemize}
     \item \text{Hastighet}: $LT^{-1}$
     \item \text{Acceleration}: $LT^{-2}$
     \item \text{Kraft}: $MLT^{-2}$
 \end{itemize}
+\end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1992360137
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Ge exempel på en ansats för dimensioner (dimensionsanalys)}
     
 \subsection{Ansats för dimensioner}
 Ansätt att vänsterledet ska vara lika med högerledet:
@@ -406,7 +412,7 @@ $$
 \ruler
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1513112241
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Vad är ett kraftsystem?}
 \section{Kraftsystem}
 Ett kraftsystem består av \textit{flera krafter och moment}.
 \subsection{Inledande principer}
@@ -425,7 +431,7 @@ Definitionen av ett kraftsystem är
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1916231466
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Formulera kraftsumma med avseende på en punkt.}
     
 Ett kraftsystem har också \textbf{en kraftsumma}, som fås av att summera de individuella krafterna:
 $$
@@ -435,7 +441,7 @@ $$
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1699916773
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Formulera momentsumma med avseende på en punkt.}
     
 Detsamma gäller för \text{momentsumman} med avseende på en punkt $A$:
 $$
@@ -446,7 +452,7 @@ $$
 \section[title]{Kraftigt reducerade kraftsystem}
 (pun intended i rubriken!)
 % DONOTREMOVE ANKI-FLASHCARD GUID 1642598046
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Vad är en enkraftsresultant?}
     
 \subsection{Enkraftsresultant}
 Handlar om att vi kan hitta en punkt där vi kan reducera att system till \textit{\underline{en} kraft} och \textit{\underline{inget} moment}.
@@ -454,7 +460,7 @@ Handlar om att vi kan hitta en punkt där vi kan reducera att system till \texti
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1399323724
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Vilken ekvation hittar punkten för en e.v. enkraftsresultant? Ange även tricket!}
     
 \textbf{Ekvationen som hittar punkten:}
 $$
@@ -468,7 +474,7 @@ där $r_{BA}$ är avståndet till den sökta punkten från en vald punkt $A$.
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1571678490
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Vad är en kraftskruv? Definiera en kraftskruv. Vilka kraftsystem kan reduceras till en kraftskruv?}
     
 \subsection{Kraftskruv}
 Alla system går inte att reducera till en enkraftsresultant, men de går att reducera till en \textit{kraftskruv}! En sådan består av \textit{\underline{ett} moment} och \textit{\underline{en} kraft}, båda i $\vec O$.
@@ -479,7 +485,7 @@ Alla system går inte att reducera till en enkraftsresultant, men de går att re
 Masscentrum är där tyngdkraften angriper i en punkt, och betecknas med $G$ eller \centerofmass.
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 2044500254
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Hur kan man bestämma masscentrum för ett partikelsystem?}
     
 \subsection{Masscentrum för ett partikelsystem}
 (Dvs. \textit{ändligt antal partiklar})
@@ -490,7 +496,7 @@ $$
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1991794589
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Hur kan man bestämma masscentrum för en stelkropp?}
     
 \subsection{Masscentrum för en stelkropp}
 (Dvs. \textit{\textbf{o}ändligt antal partiklar})
@@ -515,7 +521,7 @@ Du kan ersätta masselement $dm$ genom att anta att alla element har samma densi
 
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 2042769643
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Ange formeln för linjedensitet.}
 
 \textbf{Linjedensitet ges av:}
 $$
@@ -525,7 +531,7 @@ $$
 
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1722287218
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Ange formeln för area-/ytdensitet.}
     
 \textbf{Area-/ytdensitet ges av}
 $$
@@ -542,7 +548,7 @@ För en halvcirkelbåge, låt $dm=\rho dA$ där $\rho$ är areadensiteten och $d
 Jämvikt definieras med avseende på en \underline{referensram}, dvs. ett område man kollar om det är jämvikt med avseende på.
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1432212044
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Formulera kraven för jämvikt (statik).}
     
 \textbf{Krav för jämvikt:} Kraftsumman och momentsumman med avseende på en punkt ska vara $0$ \underline{för alla} delsystem, dvs.
 $$
@@ -553,7 +559,7 @@ $$
 \textbf{I 2D gäller:}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1306453975
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Ställ upp den generella jämviktsekvationen i 2D.}
     
 \textit{Alternativ 1:}
 $$
@@ -565,8 +571,9 @@ $$
 \end{cases}
 $$
 \textit{Observera} att momentet i $z$-led är det enda som behöver vara noll, eftersom de andra kraven implicerar jämvikt i övriga led.
-
-
+\end{ankiflashcard}
+\begin{ankiflashcard}{Formulera de alternativa jämviktsekvationerna i 2D.}
+    
 \textbf{Alternativa jämviktsekvationer i 2D:}
 
 \textit{Alternativ 2:}
@@ -590,7 +597,7 @@ $$
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1469603891
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Vad är ett statiskt obestämt problem?}
     
 \textbf{Statiskt obestämt problem:}
 
@@ -599,7 +606,7 @@ Ett problem där du har färre oberoende jämviktsekvationer än sökta obekanta
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 2024395469
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Formulera Newtons tredje lag. Relatera lagen till jämvikt (statik)}
 \subsection{Newtons tredje lag och jämvikt}
 Newtons tredje lag: \say{för varje kraft som verkar på ett föremål finns det alltid en motkraft som verkar på föremålet, av samma storlek men i motsatt riktning.}
 
@@ -612,42 +619,56 @@ Krafter och moment som uppstår när en kropp är \textit{låst} från att röra
 Nedan är några exempel.
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1151630043
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Vilka reaktionskrafter påverkas en vajer av?}
 \subsection{Vajer/länk}
 \begin{itemize}
     \item Påverkas av en reaktionskraft vinkelrätt mot länken
 \end{itemize}
 \end{ankiflashcard}
-
+\begin{ankiflashcard}{Vilka reaktionskrafter påverkas en objekt på ett underlag av?}
 \subsection{Objekt mot yta}
 \begin{itemize}
     \item Påverkas av en normalkraft $N$ vinkelrätt mot underlaget.
     \item \textit{Om friktion finns:} påverkas även av en friktionskraft längs underlaget.
 \end{itemize}
+\end{ankiflashcard}
+\begin{ankiflashcard}{Vilka reaktionskrafter påverkas en led/en sprint av}
 \subsection{Led/sprint}
 \begin{itemize}
     \item Påverkas av reaktionskrafter i $x$ och $y$-led.
     \item \textit{Om friktion finns:} påverkas även av ett kraftmoment.
 \end{itemize}
+\end{ankiflashcard}
+\begin{ankiflashcard}{Vilka reaktionskrafter påverkas en kulled av?}
+    
 \subsection{Kulled}
+
 \begin{itemize}
     \item Påverkas av reaktionskrafter i $x$, $y$ och $z$-led.
 \end{itemize}
+\end{ankiflashcard}
+\begin{ankiflashcard}{Vilka reaktionskrafter påverkas ett fastsatt objekt av?}
 \subsection{Fastsättning}
 (tänk t.ex. en balk på en vägg). Objektet kan inte röra sig åt någon riktning.
 \begin{itemize}
     \item Påverkas av reaktionskrafter i $x$ och $y$-led.
     \item Påverkas även av ett kraftmoment.
 \end{itemize}
+\end{ankiflashcard}
+\begin{ankiflashcard}{Vilka reaktionskrafter påverkas ett gångjärn av?}
+    
 \subsection{Gångjärn eller fast inspänd balk}
 \begin{itemize}
     \item Påverkas av reaktionskrafter i $x$, $y$ och $z$-led.
     \item Påverkas av reaktionsmoments i $x$, $y$ och $z$-led.
 \end{itemize}
+\end{ankiflashcard}
 \end{paracol}
 
 \newpage
 \appendix
+\begin{ankiflashcard}{Ange masscentrum för en kvadrat och triangel.}
+    
 \section{Masscentrum för några enkla former}
 \large{
 \begin{tabular}{|c|c|}
@@ -661,6 +682,8 @@ Nedan är några exempel.
     
 \end{tabular}
 }
+\end{ankiflashcard}
+
 \newpage
 \midtitle{Dynamik}
 \newpage
@@ -676,11 +699,15 @@ Nedan är några exempel.
 \end{itemize}
 \subsubsection{Generell kurvlinjär rörelse}
 Skillnaden från rätlinjig rörelse är att läget beskrivs som en vektorvärd funktion av tiden, dvs. $$\vec r(t)=(x(t),y(t),z(t))$$ till exempel. (i kartesiska koordinater)
+\begin{ankiflashcard}{Hur kan man gå från t.ex. hastighet till att få sträckan med hjälp av differentialer?}
+    
 \subsection{Rörelserelaterade integraler}
 \begin{enumerate}
     \item $\int \text{hastighet} = \text{sträcka}$
     \item $\int \text{acceleration} = \text{hastighet}$
 \end{enumerate}
+\end{ankiflashcard}
+
 \subsection{Kurvlinjär rörelse i kartesiska koordinater}
 \subsubsection{Enhetsvektorer}
 \begin{itemize}
@@ -692,13 +719,17 @@ Skillnaden från rätlinjig rörelse är att läget beskrivs som en vektorvärd 
     $$\vec e_z = (0,0,1)$$ 
 \end{itemize}
 \subsubsection{Läge, hastighet, acceleration}
+\begin{ankiflashcard}{Definera läge, hastighet och acceleration i kartesiska koordinater.}
+    
 \begin{itemize}
     \item \textbf{Läge:} $\vec r = x(t)\vec e_x + y(t)\vec e_y + z(t)\vec e_z$
     \item \textbf{Hastighet:} $\vec v = \dot{\vec r} = \dot x(t)\vec e_x + \dot y(t)\vec e_y + \dot z(t)\vec e_z$
     \item \textbf{Acceleration:} $\vec a = \dot{\vec v} = \ddot{\vec r} = \ddot x(t)\vec e_x + \ddot y(t)\vec e_y + \ddot z(t)\vec e_z$
 \end{itemize}
+\end{ankiflashcard}
 
 \subsection{Kurvlinjär rörelse i cylindriska koordinater}
+\begin{ankiflashcard}{Definiera enhetsvektorerna i cylinderkoordinater.}
 \subsubsection{Enhetsvektorer}
 
 \begin{itemize}
@@ -708,6 +739,9 @@ Skillnaden från rätlinjig rörelse är att läget beskrivs som en vektorvärd 
     $$e_\theta = (\cos \left[\theta + \frac{\pi}{2}\right], \sin \left[\theta + \frac{\pi}{2}\right], 0)$$
     \item $\vec e_z$: Enhetsvektor i vertikalriktningen (ges av $$(0,0,1)$$)
 \end{itemize}
+\end{ankiflashcard}
+\begin{ankiflashcard}{Definiera läge, hastighet och acceleration i cylinderkoordinater.}
+    
 \subsubsection{Läge, hastighet, acceleration}
 \begin{itemize}
     \item \textbf{Läge:} $\vec{r_{OP}}=r \vec{e_r}+z\vec{e_z}$
@@ -720,39 +754,44 @@ där $\begin{cases}
 \numbercircle{2}:\space\text{transversella accelerationen}\\
 \numbercircle{3}:\space\text{vertikala accelerationen}
 \end{cases}$
+\end{ankiflashcard}
 
 
 \paragraph{Nämnvärda samband vid cirkelrörelse}
 
-
+\begin{ankiflashcard}{Ange sambandet mellan vinkelhastighet och radie vid cirkelrörelse.}
+    
 För en partikel som rör sig med vinkelhastighet $\omega$ i en cirkelbana med radie $R$ gäller $v=\omega R$.
-
+\end{ankiflashcard}
 
 \ruler
 \section{Energi och arbete}
 \subsection{Potentialer}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 2084702027
-\begin{ankiflashcard}
-    
+\begin{ankiflashcard}{Definiera gravitationspotentialen, i alla tre fall.}
 \subsubsection{Gravitation}
 Potentialen mellan två kroppar med massor $m$ och $M$ på ett avstånd $r$ ges enligt
 $$
-V(r)=-G\frac{mM}{r}
+V(r)=-\frac{GmM}{r}
 $$
-Observera att \textit{vid rörelse kring jorden gäller}
+\textbf{Viktigt!} Det går nära jordytan att byta ut $\frac{GM}{r} \longleftrightarrow \frac{gR^2}{r}$
+Så \textit{vid rörelse kring jorden gäller}
 $$
-V(r)=-mg\frac{R^2}{r}
+V(r)=-\frac{mgR^2}{r}
 $$
 och \textit{vid närheten av jordytan gäller}
+%$$
+%V(z)=-mgR+mgz
+%$$
+%(Potentialenergin har nollnivån $-mgR$ relativt jordens %yta, så den termen behöver man inte ta med!)
 $$
-V(z)=-mgR+mgz
+V(z)=mgz
 $$
-(Potentialenergin har nollnivån $-mgR$ relativt jordens yta, så den termen behöver man inte ta med!)
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1267332568
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Definiera potentialenergi och fjäderkraft för en fjäder.}
     \subsubsection{Fjäder}
     \textit{Notera} att fjäderkraften är $F_{\gluon}=k\Delta l$
     Potentialen för en fjäder är
@@ -762,6 +801,8 @@ $$
     där $\Delta l=l_1-l_0$ och $l_0$ är fjäderns naturliga (ospända) läge
 \end{ankiflashcard}
 \ruler
+\begin{ankiflashcard}{Definiera rörelsemängdsmoment}
+    
 \subsection{Rörelsemängdsmoment}
 Rörelsemängdsmoment definieras som
 $$
@@ -769,16 +810,22 @@ H_O = \vec r \times \vec p
 $$
 ($\vec p = m \vec v$)
 \textit{Notera} hur detta bara är det allmäna fallet av momentekvationen från statiken!
-\subsubsection{Impulsmomentlagen}
+\end{ankiflashcard}
+
+\begin{ankiflashcard}{Definiera rörelsemängdsmomentlagen.}
+\subsubsection{Rörelsemängdsmomentlagen}
 Med avseende på origo gäller
 $$
 \dot H_O = M_O
 $$
+\end{ankiflashcard}
+
+\begin{ankiflashcard}{Definiera vad impuls är. Definiera även kraftimpulslagen.}
+    
 \subsection{Impuls}
-Impuls är \textit{ändringen av rörelsemängden} vid en viss tidpunkt. Dvs. $$\text{impuls: } I = \vec F\Delta t$$
-\subsubsection{Kraftimpulslagen}
-\textit{Kraftimpulslagen} relaterar rörelsemängd med impuls.
-$$I = \Delta \vec p = m \Delta \vec v = \int_{t_1}^{t_2} \vec F dt$$
+Impuls är \textit{ändringen av rörelsemängden} vid en viss tidpunkt. Dvs.
+$$\text{impuls: } I = \Delta \vec p = m \Delta \vec v = \underbrace{F\Delta t =  \int_{t_1}^{t_2} \vec F dt}_{\text{kallas \textit{kraftimpuls(lagen)}}}$$
+\end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1269641212
 \begin{ankiflashcard}{Definiera centralrörelse och dess kännetecken.}
@@ -798,6 +845,7 @@ $$I = \Delta \vec p = m \Delta \vec v = \int_{t_1}^{t_2} \vec F dt$$
     $\dot A = \frac 1 2 r^2 \dot \theta$
 \end{ankiflashcard}
 \switchcolumn
+\begin{ankiflashcard}{Formulera en integral för att bestämma ett uttryck för hastighet utifrån acceleration.}
 \subsubsection{(Mycket) användbara samband vid beräkning}
 $$
 a=\frac{dv}{dt}=\frac{dv}{ds}\underbrace{\frac{ds}{dt}}_{v} = \frac{dv}{ds}v
@@ -806,6 +854,8 @@ $$
 \implies \boxed{a ds = v dv}
 $$
 där $ds$ t.ex. om rörelsen sker längs $x$-axeln är $dx$.
+\end{ankiflashcard}
+    \begin{ankiflashcard}{Ange Hastighet-tid, Acceleration-tid och Hastighet-position samband.}
 Relevanta samband:
 \begin{itemize}
     \item $ds = vdt$\quad\textit{Hastighet-tid}
@@ -815,6 +865,8 @@ Relevanta samband:
 Exempel för att bestämma ett uttryck för hastighet, given acceleration:
 $$\int_0^{s_0} a ds = \int_0^v v dv\implies \frac{v^2}{2} = \int_0^{s_0} a ds$$
 där $s_0$ är övre gränsen för sträckan.
+\end{ankiflashcard}
+
 \ruler
 \subsection{Kurvlinjär rörelse i naturliga komponenter}
 Naturliga komponenter betraktar acceleration och hastighet från perspektivet av partikeln som rör sig.
@@ -826,7 +878,8 @@ Naturliga komponenter betraktar acceleration och hastighet från perspektivet av
     \item $\vec e_b=\vec e_t \times e_n$ (3D): Binormalen. I 3D har vi tre komposanter av hastighet och acceleration $\vec e_b$ är \textit{normalen} till det \textit{oskulderade planet}, dvs. planet som spänns upp av $\vec e_t$ och $\vec e_n$.
 \end{itemize}
 $s(t)$ beskriver partikelns rörelse längs med en kurva.
-
+\begin{ankiflashcard}{Ange ekvationer för läge, hastighet och acceleration i naturliga komponenter.}
+    
 \subsubsection{Läge, hastighet, acceleration}
 \begin{itemize}
     \item \textbf{Läge:}
@@ -840,45 +893,64 @@ där $$\begin{cases}
     \numbercircle{3}: \text{binormalaccelerationen} \\
 \end{cases}$$
 där $\rho$ är krökningsradie, ``radie av den perfekta cirkeln som passar kring riktningen``.
+\end{ankiflashcard}
+
 \subsubsection{Krökningsradie}
+\begin{ankiflashcard}{Ställ upp formeln för krökningsradie (2D)}
 \textbf{I 2D gäller:}
 $$
 \rho = \frac{(1+y'^2)^{\frac{3}{2}}}{\left| y' \right|}
 $$
 (Observera att $\rho = R$ för en cirkel, om cirkelns radie är $R$)
-
-
+\end{ankiflashcard}
+\begin{ankiflashcard}{Ställ upp formeln för krökningsradie (3D)}
+    
 \textbf{I 3D gäller:}
 $$
 \rho = \frac{v^3}{\left| \vec x \times \vec a \right|}
 $$
+\end{ankiflashcard}
+
 \subsubsection{Nämnvärda samband vid naturliga komponenter}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1574465225
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Hur definieras hastighet i naturliga kompontenter? (trevligt trick)}
     $$
     \Delta s = \rho \Delta \theta
     \implies v = \rho \Delta \theta   $$
 \end{ankiflashcard}
 \subsection{Dynamikens kraftekvationer}
+\begin{ankiflashcard}{Definiera rörelsemängd}
+    
 \subsubsection{Rörelsemängd}
 $$\vec p = m \vec v$$
+\end{ankiflashcard}
+\begin{ankiflashcard}{Vad är sant om rörelsemängdslagen för ett system?}
 \subsection{Rörelsemängden för ett system}
 Rörelsemängden för ett system \textbf{bevaras}, dvs
 $$\vec p_{\text{tot}}^{\prime} = \vec p_{\text{tot}}$$
-\subsubsection{Kraftsumma (Rörelsemängdslagen)}
+\end{ankiflashcard}
+
+\begin{ankiflashcard}{Forumlera Newtons andra lag}
+\subsubsection{Kraftsumma (och Newtons andra lag)}
 Summan av alla krafter som verkar på ett system är tidsderivatan av dess rörelsemängd:
 $$\dot{\vec p} = \vec F$$
 \textit{Då massan inte ändras över tid} (t.ex för en partikel), gäller
 $$\vec F= \frac{\Delta \vec p}{\Delta t} = m\vec a$$
 Detta gäller i alla koordinatsystem, exempelvis i naturliga komponenter:
 $$\vec F = m(\vec a_t + \vec a_n)$$
+\end{ankiflashcard}
+
+\begin{ankiflashcard}{Vad säger Newtons första lag?}
+    
 \subsubsection{Newtons 1:a lag}
 $$\vec F = 0 \iff \vec v: \text{konstant}$$
+\end{ankiflashcard}
+
 \subsection{Arbete, allmänt}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1623736750
-\begin{ankiflashcard}
+\begin{ankiflashcard}{Definiera arbete (generella definitionen)}
 Arbete definieras som en kurvintegral
 $$
 U_{1-2} = \int_{\vec r_1}^{\vec r_2} \vec F \cdot \vec{dr}
@@ -886,40 +958,54 @@ $$
 \end{ankiflashcard}
 \subsection{Effekt}
 $$P = \vec F \cdot \vec v$$
+\begin{ankiflashcard}{Definiera potentiell energi}
 \subsection{Potentiell energi}
 En potentiell energi är en potentialfunktion till ett kraftfält. \textit{Observera att} den definieras åt ``andra riktningen`` än vad man kanske är van med från flervariabeln!
 
 Arbetet som potentiella energin utför är
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1789149398
-\begin{ankiflashcard}
 $$
 U_{1-2} = V_1 - V_2
 $$
+(från flervariabeln: $U_{1-2}=V_2-V_2$)
 \end{ankiflashcard}
 \subsection{Energilagar}
+\begin{ankiflashcard}{Formulera lagen om kinetisk energi}
 \subsubsection{Lagen om kinetisk energi}
 Lagen säger att kinetiska energin i en punkt $T_2$ ges av energin i en punkt $T_1$ samt arbetet som utförts mellan de två punkterna. Detta kan matematiskt skrivas $T_1 + U_{1-2} = T_2$ eller på formen man oftare ser
 $$
 U_{1-2} = T_2 - T_1
 $$
 (Förväxla inte detta med att en konservativ kraft utför arbetet $U_{1-2}=V_{\mathbf 1}-V_{\mathbf 2}$!)
+\end{ankiflashcard}
+\begin{ankiflashcard}{Formulera mekaniska energilagen}
+    
 \subsubsection{Mekaniska energilagen}
 \textbf{OBS!} Denna lag gäller bara om alla krafter som utför arbete är konservativa!
 $$
 T_1 + V_1 + T_2 + V_2\quad\left\{\begin{array}{l}T_1: \text{Kinetisk energi i punkt 1} \\V_1: \text{Potentialenergi i punkt 1} \\T_2: \text{Kinetisk energi i punkt 2} \\V_2: \text{Potentialenergi i punkt 2} \\\end{array}\right.$$
+\end{ankiflashcard}
+
 \subsection{Stötar}
 En stöt är en impuls som sker under en (mycket) kort tid. En stöt kan vara något på skalan mellan:
+\begin{ankiflashcard}{Förklara de olika typerna av stötar som finns, hur energiförlusten ser ut och vad studstalet är.}
+    
 \begin{itemize}
     \item \textit{elastisk} (partiklarna rör sig separat från varandra efter kollisionen) - studstal $1$, \color{blue}\textit{minimal }\color{black} energiförlust
     \item  \textit{inelastisk } (partiklarna rör sig som en sammanhängande massa efter kollisionen) - studstal $0$, \color{red}\textit{maximal }\color{black} energiförlust
 \end{itemize}
+\end{ankiflashcard}
+\begin{ankiflashcard}{Formulera stötimpulslagen för två partiklar}
 \subsubsection{Stötimpulslagen för två partiklar}
 $$\vec I_{12} = m(\vec v^{\prime} - \vec v)$$
+\end{ankiflashcard}
+
 \subsubsection{Studstal}
 Studstalet är måttet på hur elastisk en stöt är och definieras:
 
-
+\begin{ankiflashcard}{Ange de olika formlerna för studstal, inklusive snedstöt.}
+    
 \textbf{För en stöt längs en axel, t.ex. $x$-axeln:}
 $$
 e=\frac{\text{hastighetsändringen efter}}{\text{hastighetsändringen före}}=\frac{v_{2x}^{\prime}-{v_{1x}^{\prime}}}{v_{1x}-v_{2x}}
@@ -936,6 +1022,7 @@ $$
 \includegraphics[width=0.2\textwidth]{snedstöt.png}
     \caption{Snedstöt.}
 \end{figure}
+\end{ankiflashcard}
 
 \end{paracol}
 \end{document}
