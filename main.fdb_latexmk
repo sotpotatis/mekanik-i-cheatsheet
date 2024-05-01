@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1714552433.61236 "main.tex" "main.pdf" "main" 1714552434.61698 0
+["pdflatex"] 1714552726.81682 "main.tex" "main.pdf" "main" 1714552727.83998 0
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc" 1529098226 2409 c64dab22331c83731e970f6020b4448b ""
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -226,11 +226,11 @@
   "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1714525131 5474182 e2922ac652e44756bdee6733691703ad ""
   "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1714525247 8222870 072abe62039f9fe04ff0f293298a6cc5 ""
   "/opt/texlive/texdir/texmf.cnf" 1714525125 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "ersättningsmoment.png" 1714552430.66726 15951 283edca25d9079bae0b2dd6fcc9c83f7 ""
-  "main.aux" 1714552434.42731 10934 47dfee142af5dc43e2d3ef98f616c554 "pdflatex"
-  "main.out" 1714552434.42731 15037 fe90bb9e4aaf4d4847ec9f82ef7bb3eb "pdflatex"
-  "main.tex" 1714552432.13528 38792 1c8ab1413069d9f68d84ea19fe55b936 ""
-  "snedstöt.png" 1714552430.67126 4363 c69e0e493390051b96c2672219210c78 ""
+  "ersättningsmoment.png" 1714552724.97366 15951 283edca25d9079bae0b2dd6fcc9c83f7 ""
+  "main.aux" 1714552727.64966 10934 47dfee142af5dc43e2d3ef98f616c554 "pdflatex"
+  "main.out" 1714552727.64966 15037 fe90bb9e4aaf4d4847ec9f82ef7bb3eb "pdflatex"
+  "main.tex" 1714552726.34966 38792 4425fd6bce0666c7115864c7f98fe045 ""
+  "snedstöt.png" 1714552724.97766 4363 c69e0e493390051b96c2672219210c78 ""
   (generated)
   "main.aux"
   "main.log"
