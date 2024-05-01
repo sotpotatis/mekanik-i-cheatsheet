@@ -15,7 +15,7 @@ class AnkiDeck:
         self.id = id
         self.name = name
         self.filename = filename # File that the deck belongs to
-        self.latex_preamble = None # Preamble of LaTeX document
+        self.latex_preamble = latex_preamble # Preamble of LaTeX document
         self.logger = logging.getLogger(f"{__name__}.ankiDeck.{id}")
         if flashcards is not None:
             for flashcard in flashcards:
@@ -102,7 +102,13 @@ class Flashcard:
         if self.parent is not None and self.parent.latex_preamble is not None:
             # A little hacky, but add the Anki default preamble below so that any relevant
             # overrides come through
-            note_model.latex_pre = "\\documentclass[12pt]{article}" + self.parent.latex_preamble + r"""
+            # Parse preamble
+            parsed_latex_preamble = []
+            for line in self.parent.latex_preamble.split("\n"):
+                if "\\documentstyle" not in line and "\\documentclass" not in line:
+                    parsed_latex_preamble.append(line)
+            parsed_latex_preamble = "\n".join(parsed_latex_preamble)
+            note_model.latex_pre = "\\documentclass[12pt]{article}" + parsed_latex_preamble + r"""
             \special{papersize=3in,5in}
             \usepackage[utf8]{inputenc}
             \usepackage{amssymb,amsmath}
