@@ -107,7 +107,8 @@ class Flashcard:
             \usepackage[utf8]{inputenc}
             \usepackage{amssymb,amsmath}
             \pagestyle{empty}
-            \setlength{\parindent}{0in}""" # This is basically the default LaTeX that genanki uses
+            \setlength{\parindent}{0in}
+            \begin{document}""" # This is basically the default LaTeX that genanki uses
         return Note(
             guid=self.guid,
             model=BASIC_MODEL,
