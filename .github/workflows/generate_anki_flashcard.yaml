@@ -7,8 +7,9 @@ jobs:
     name: Generate flashcards
     steps:
       - uses: actions/checkout@v2
-        persist_credentials: false
-        fetch-depth: 0
+        with:
+          persist-credentials: false
+          fetch-depth: 0
         name: Check out repository
       - name: Buid/create flashcards
         run: |
