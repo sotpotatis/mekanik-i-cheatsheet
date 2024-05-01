@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   generate_flashcards:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     name: Generate flashcards
     steps:
       - uses: actions/checkout@v2
