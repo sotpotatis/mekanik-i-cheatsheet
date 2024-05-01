@@ -12,8 +12,8 @@ jobs:
         name: Check out repository
       - name: Buid/create flashcards
         run: |
-        pip install -r requirements.txt
-        python main.py
+          pip install -r requirements.txt
+          python main.py
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v2
         with:
