@@ -3,6 +3,11 @@
 Contains a cheatsheet with mathematical formulas and material overview for the course SG1133 at [KTH](https://kth.se). It should be (educated guess) similar to other courses covering the material in the book Mekanik I by Prof. Apazidis.
 I am a student, not affiliated with anyone teaching the course. The material comes with full reservations for errors.
 
+### Downloads
+
+--> **Latest cheatsheet version:** [here](https://github.com/sotpotatis/mekanik-i-cheatsheet/blob/main/main.pdf)
+--> **Latest flashcards version:** [here](https://github.com/sotpotatis/mekanik-i-cheatsheet/blob/main/maintex-deck.apkg)
+
 ### Auto-compilation
 
 As I change the cheatsheet, it should automatically be recompiled and put here. You should find the cheatsheet with the very descriptive name `main.pdf`.
