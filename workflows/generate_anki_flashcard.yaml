@@ -1,0 +1,26 @@
+name: Generate Anki Flashcards from LaTeX
+on:
+  push:
+jobs:
+  generate_flashcards:
+    runs_on: ubuntu-latest
+    name: Generate flashcards
+    steps:
+      - uses: actions/checkout@v2
+        persist_credentials: false
+        fetch-depth: 0
+        name: Check out repository
+      - name: Buid/create flashcards
+        run: |
+        pip install -r requirements.txt
+        python main.py
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: main.tex
+      - name: Commit and push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          author_name: "Bottie The Bot"
+
