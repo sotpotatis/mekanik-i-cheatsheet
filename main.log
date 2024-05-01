@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  1 MAY 2024 08:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  1 MAY 2024 21:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -43,7 +43,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
@@ -213,7 +213,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip55
 \f@nch@O@elh=\skip56
@@ -249,7 +249,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box100
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/04/20 v24.4 The Babel package
+Package: babel 2024/02/07 v24.2 The Babel package
 \babel@savecnt=\count285
 \U@D=\dimen161
 \l@unhyphenated=\language89
@@ -1320,10 +1320,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FE90BB9E4AAF4D4847EC9F82EF7BB3EB;15037.
  ) 
 Here is how much of TeX's memory you used:
- 24699 strings out of 474104
- 449278 string characters out of 5745486
+ 24696 strings out of 474104
+ 449184 string characters out of 5745485
  1966493 words of memory out of 5000000
- 46479 multiletter control sequences out of 15000+600000
+ 46476 multiletter control sequences out of 15000+600000
  598836 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,17n,87p,519b,883s stack positions out of 10000i,1000n,20000p,200000b,200000s
