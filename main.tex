@@ -77,6 +77,10 @@
 \end{center}
 }
 \begin{document}
+\Huge{Mekanik I - Sammanfattning}
+\normalsize\newline
+\textit{Med reseveration för att formler och/eller fakta är felaktiga och övriga skrivfel. Den senaste versionen av formelbladet (tillsammans med flashcards) finns att hitta på \url{https://github.com/sotpotatis/mekanik-i-cheatsheet}.}
+\newpage
 \midtitle{Statik}
 \begin{paracol}{2}
 \section{Vektoralgebra}
@@ -826,7 +830,7 @@ $$
     \textit{Notera} att fjäderkraften är $F_{\gluon}=k\Delta l$
     Potentialen för en fjäder är
     $$
-    V = \frac{1}{2}(\Delta l)^2
+    V = \frac{1}{2}k(\Delta l)^2
     $$ .
     där $\Delta l=l_1-l_0$ och $l_0$ är fjäderns naturliga (ospända) läge
 \end{ankiflashcard}
@@ -852,6 +856,7 @@ Med avseende på origo gäller
 $$
 \dot H_O = M_O
 $$
+$\implies$ \textbf{(Väldigt) användbar följd:} Om $M_O=0$ är $H_O$ konstant.
 \end{ankiflashcard}
 
 
@@ -865,21 +870,82 @@ $$\text{impuls: } I = \Delta \vec p = m \Delta \vec v = \underbrace{F\Delta t = 
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1269641212
 \begin{ankiflashcard}{Definiera centralrörelse och dess kännetecken.}
-    \subsection{Centralrörelse}
+    \section{Centralrörelse}
+  
     Principen för en centralrörelse är att \textit{endast en centralkraft (en kraft som alltid går genom samma punkt)}, inga andra krafter, utför \textit{arbete}. \textit{Exempelvis:} en satellits rörelse runt jorden, en fjäder fäst i en punkt (om alla krafter utom fjäderkraften kan försummas)
 
     Kännetecken:
     \begin{itemize}
         \item \textit{Kraft}momentet är $0$ $\implies$ \textit{rörelsemängds}momentet är konstant. 
-        \item Partikelbanorna är plana, normalen ges av $$\vec H_O$$
+        \item Partikelbanorna är plana, normalen ges av $\frac{\vec H_O}{\left\| H_0 \right\|}$
     \end{itemize}
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1139112481
 \begin{ankiflashcard}{Definiera sektorhastigheten vid centralrörelse}
-    \textbf{Sektorhastigheten} (vid centralrörelse!) är konstant.
-    $\dot A = \frac 1 2 r^2 \dot \theta$
+    \textbf{Sektorhastigheten} (vid centralrörelse!) är konstant (\textbf{Keplers andra lag}).
+    \begin{itemize}
+        \item Sektorhastighet i kartesiska koordinater:
+        $$\dot A = \frac 1 2 h$$
+        \item  Sektorhastighet i cylinderkoordinater:     $$\dot A = \frac 1 2 r^2 \dot \theta$$
+    \end{itemize}
 \end{ankiflashcard}
+\begin{ankiflashcard}{Formulera Binets formel.}
+\subsection{Binets formel}
+Binets formel omvandlar kraftekvationen från att vara beroende av tiden till att vara beroende av vinkeln ($\theta$).
+$$a_r = -h^2u^2\left(\frac{d^2u}{d\theta^2}+u\right)$$
+\end{ankiflashcard}
+där $u=\frac{1}{r}$.
+\begin{ankiflashcard}{Uttryck radie med hjälp av Binets formel}
+    
+Formeln ger
+$$
+r=\frac{\frac{h^2}{GM}}{1+(\frac{h^2D}{GM})\cos \theta}
+$$
+\end{ankiflashcard}
+\subsection{Ellipsens geometri}
+\begin{ankiflashcard}{Formulera eccentricitet.}
+    
+\subsubsection{Eccentricitet}
+Ett mätt på hur ``nära`` en konisk sektion (ellips, parabel eller hyperbel) är från att vara en perfekt cirkel.
+$$e=\frac{c}{a}$$
+\end{ankiflashcard}
+
+\begin{ankiflashcard}{Beskriv eccentriciteten för några olika kägelsnitt}
+\begin{tabular}{|c|c|}
+\hline
+\\
+\textbf{Värde på $e$}&\textbf{Form}\\
+\hline
+$e< 1$&\text{Ellips}\\
+\hline
+$e = 1$&\text{Parabel}\\
+\hline
+
+$e > 1$&\text{Hyperbel}\\
+\hline
+
+
+\end{tabular}
+\end{ankiflashcard}
+
+\subsection{Banenergi}
+Banenergin för en satellit är $\frac 1 2 mv^2 -\frac{mGM}{r}$ och är konstant. 
+
+\begin{ankiflashcard}{Formulera formeln för banenergi kopplat till eccentricitet.}
+    
+\textit{Banenergin kan relateras till eccentricitet!}
+$$\frac{2E}{m}=(e^2-1)\left( \frac{GM}{h}\right)^2$$
+\end{ankiflashcard}
+
+\begin{ankiflashcard}{Relatera banenergi till storaxelns längd.}
+    
+\textit{Banenergin kan också relateras till storaxelns längd!} (gäller \textbf{bara} för ellipser):
+$$
+E = -\frac{GmM}{2a}
+$$
+\end{ankiflashcard}
+
 \switchcolumn
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1210450825
