@@ -209,7 +209,7 @@ $$
 Se figur nedan för beteckningar:
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.2\textwidth]{ersättningsmoment.png}
+    \includegraphics[width=5cm]{ersättningsmoment.png}
     \caption{Ersättningsmoment}
 \end{figure}
 \end{ankiflashcard}
@@ -883,7 +883,7 @@ $$\text{impuls: } I = \Delta \vec p = m \Delta \vec v = \underbrace{F\Delta t = 
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1139112481
 \begin{ankiflashcard}{Definiera sektorhastigheten vid centralrörelse}
-    \textbf{Sektorhastigheten} (vid centralrörelse!) är konstant (\textbf{Keplers andra lag}).
+    \underline{\textbf{Keplers 2:a lag:}}\textbf{Sektorhastigheten} (vid centralrörelse!) är konstant.
     \begin{itemize}
         \item Sektorhastighet i kartesiska koordinater:
         $$\dot A = \frac 1 2 h$$
@@ -904,6 +904,25 @@ r=\frac{\frac{h^2}{GM}}{1+(\frac{h^2D}{GM})\cos \theta}
 $$
 \end{ankiflashcard}
 \subsection{Ellipsens geometri}
+\begin{ankiflashcard}{Hur benämns de olika sträckorna i ellipsen}
+    
+\subsubsection{Geometriska attribut}
+\begin{itemize}
+    \item \textit{Storaxelns längd}, $2a$
+    \item  \textit{``Lill``axelns längd}, $2b$
+    \item \textit{Avståndet till brännpunkter/foci:} $c$
+\end{itemize}
+\end{ankiflashcard}
+
+\begin{ankiflashcard}{Ställ upp användbara samband kring ellipsens geometri.}
+\subsubsection{Användbara samband:}
+\begin{itemize}
+    \item \underline{\textbf{Keplers 1:a lag:}} Vid rörelse kring en planet eller liknande så är planeten i ellipsbanans ena foci.
+    \item $\text{avstånd till foci 1}+\text{avstånd till foci 2} = 2a$ i alla punkter
+    \item $a^2=b^2+c^2$ (läs detta igen, det är inte samma benämning som Pythagoras sats!)
+\end{itemize}
+\end{ankiflashcard}
+
 \begin{ankiflashcard}{Formulera eccentricitet.}
     
 \subsubsection{Eccentricitet}
@@ -921,8 +940,9 @@ $e< 1$&\text{Ellips}\\
 \hline
 $e = 1$&\text{Parabel}\\
 \hline
-
 $e > 1$&\text{Hyperbel}\\
+\hline
+$e = 0$&\text{Cirkel}\\
 \hline
 
 
@@ -930,7 +950,7 @@ $e > 1$&\text{Hyperbel}\\
 \end{ankiflashcard}
 
 \subsection{Banenergi}
-Banenergin för en satellit är $\frac 1 2 mv^2 -\frac{mGM}{r}$ och är konstant. 
+Banenergin för en satellit är $$E=\frac 1 2 mv^2 -\frac{mGM}{r}$$ och är konstant. 
 
 \begin{ankiflashcard}{Formulera formeln för banenergi kopplat till eccentricitet.}
     
@@ -944,6 +964,8 @@ $$\frac{2E}{m}=(e^2-1)\left( \frac{GM}{h}\right)^2$$
 $$
 E = -\frac{GmM}{2a}
 $$
+
+\small{Detta samband gör det EXTREMT enkelt att bestämma hastigheten för något som kretsar kring jorden!}
 \end{ankiflashcard}
 
 \switchcolumn
@@ -951,6 +973,7 @@ $$
 % DONOTREMOVE ANKI-FLASHCARD GUID 1210450825
 \begin{ankiflashcard}{Formulera en integral för att bestämma ett uttryck för hastighet utifrån acceleration.}
 \subsubsection{(Mycket) användbara samband vid beräkning}
+\textit{(Se ``Mechanics for Engineers, Dynamics (13th ed.)`` av Hibeller, Yap)}
 $$
 a=\frac{dv}{dt}=\frac{dv}{ds}\underbrace{\frac{ds}{dt}}_{v} = \frac{dv}{ds}v
 $$
@@ -964,9 +987,8 @@ där $ds$ t.ex. om rörelsen sker längs $x$-axeln är $dx$.
 \begin{ankiflashcard}{Ange Hastighet-tid, Acceleration-tid och Hastighet-position samband.}
 Relevanta samband:
 \begin{itemize}
-    \item $ds = vdt$\quad\textit{Hastighet-tid}
-    \item $dv=a dt$\quad\textit{Acceleration-tid}
-    \item $dt=\frac{ds}{v}$\quad\textit{Hastighet-position}
+    \item $vdt = ds$\quad\textit{Hastighet-tid}
+    \item $ads = vdv$\quad\textit{Acceleration-tid}
 \end{itemize}
 Exempel för att bestämma ett uttryck för hastighet, given acceleration:
 $$\int_0^{s_0} a ds = \int_0^v v dv\implies \frac{v^2}{2} = \int_0^{s_0} a ds$$
@@ -1009,7 +1031,7 @@ där $\rho$ är krökningsradie, ``radie av den perfekta cirkeln som passar krin
 \begin{ankiflashcard}{Ställ upp formeln för krökningsradie (2D)}
 \textbf{I 2D gäller:}
 $$
-\rho = \frac{(1+y'^2)^{\frac{3}{2}}}{\left| y' \right|}
+\rho = \frac{(1+y'^2)^{\frac{3}{2}}}{\left| y'' \right|}
 $$
 (Observera att $\rho = R$ för en cirkel, om cirkelns radie är $R$)
 \end{ankiflashcard}
@@ -1019,8 +1041,9 @@ $$
     
 \textbf{I 3D gäller:}
 $$
-\rho = \frac{v^3}{\left| \vec x \times \vec a \right|}
+\rho = \frac{s'^3}{\left| \vec r' \times \vec r'' \right|}
 $$
+(notera att $s'=v$ och $r'=\vec v$ samt $r'' = \vec a$)
 \end{ankiflashcard}
 
 \subsubsection{Nämnvärda samband vid naturliga komponenter}
@@ -1090,7 +1113,7 @@ Arbetet som potentiella energin utför är
 $$
 U_{1-2} = V_1 - V_2
 $$
-(från flervariabeln: $U_{1-2}=V_2-V_2$)
+(från flervariabeln: $U_{1-2}=V_2-V_1$)
 \end{ankiflashcard}
 \subsection{Energilagar}
 
@@ -1103,14 +1126,18 @@ U_{1-2} = T_2 - T_1
 $$
 (Förväxla inte detta med att en konservativ kraft utför arbetet $U_{1-2}=V_{\mathbf 1}-V_{\mathbf 2}$!)
 \end{ankiflashcard}
-
 % DONOTREMOVE ANKI-FLASHCARD GUID 1841391812
 \begin{ankiflashcard}{Formulera mekaniska energilagen}
     
 \subsubsection{Mekaniska energilagen}
 \textbf{OBS!} Denna lag gäller bara om alla krafter som utför arbete är konservativa!
 $$
-T_1 + V_1 + T_2 + V_2\quad\left\{\begin{array}{l}T_1: \text{Kinetisk energi i punkt 1} \\V_1: \text{Potentialenergi i punkt 1} \\T_2: \text{Kinetisk energi i punkt 2} \\V_2: \text{Potentialenergi i punkt 2} \\\end{array}\right.$$
+T_1 + V_1 = T_2 + V_2\quad\left\{\begin{array}{l}T_1: \text{Kinetisk energi i punkt 1} \\V_1: \text{Potentialenergi i punkt 1} \\T_2: \text{Kinetisk energi i punkt 2} \\V_2: \text{Potentialenergi i punkt 2} \\\end{array}\right.$$
+på samma sätt gäller
+$
+T + V = E = \text{konst.}
+$
+\textit{(den totala mekaniska energin är konstant i alla punkter om endast en konservativ kraft utför arbete)}.
 \end{ankiflashcard}
 
 \subsection{Stötar}
@@ -1151,9 +1178,23 @@ e=\frac{v'\cos\beta}{v\cos\alpha}\text{ samt } e =\frac{\tan \alpha}{\tan \beta}
 $$
 \begin{figure}[H]
     \centering
-\includegraphics[width=0.2\textwidth]{snedstöt.png}
+\includegraphics[width=5cm]{snedstöt.png}
     \caption{Snedstöt.}
 \end{figure}
+\end{ankiflashcard}
+\begin{ankiflashcard}
+    
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=5cm]{ellipsens_geometri.png}
+    \caption{Ellipsens geometri}
+\end{figure}
+\end{ankiflashcard}
+\begin{ankiflashcard}{Formulera Keplers 3:e lag}
+\underline{\textbf{Keplers 3:e lag:}} omloppstiden $\tau$ kring en kropp med massan $M$ förhåller sig till omloppsbanans halva storaxel $a$ enligt
+$$
+\tau = 2\pi \frac{a^{3/2}}{\sqrt{GM}}
+$$
 \end{ankiflashcard}
 
 \end{paracol}
