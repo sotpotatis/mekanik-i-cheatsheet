@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  3 MAY 2024 10:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  6 MAY 2024 06:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,11 +1021,11 @@ Overfull \hbox (69.25786pt too wide) in paragraph at lines 192--195
 []$
  []
 
-<ersättningsmoment.png, id=419, 478.78876pt x 251.94125pt>
+<ersättningsmoment.png, id=427, 478.78876pt x 251.94125pt>
 File: ersättningsmoment.png Graphic file (type png)
 <use ersättningsmoment.png>
 Package pdftex.def Info: ersättningsmoment.png  used on input line 212.
-(pdftex.def)             Requested size: 118.30423pt x 62.25089pt.
+(pdftex.def)             Requested size: 142.26378pt x 74.86021pt.
 
 Overfull \hbox (16.97958pt too wide) in paragraph at lines 240--241
 []\OT1/phv/m/sl/12 Flytt av re-duk-tions-re-sul-tat \OT1/phv/m/n/12 ger att mo-
@@ -1309,25 +1309,25 @@ Overfull \hbox (10.00002pt too wide) in paragraph at lines 801--802
  []
 
 
-Overfull \hbox (40.3117pt too wide) in paragraph at lines 834--838
+Overfull \hbox (40.3117pt too wide) in paragraph at lines 838--842
 \OT1/phv/m/n/12 l[]age   [] 
  []
 
 
-Overfull \hbox (4.46844pt too wide) in paragraph at lines 879--880
+Overfull \hbox (4.46844pt too wide) in paragraph at lines 883--884
 []\OT1/phv/m/sl/12 Kraft\OT1/phv/m/n/12 momentet []ar $\OT1/cmr/m/n/12 0$ $ =[]
 \OMS/cmsy/m/n/12 ) $ \OT1/phv/m/sl/12 r[]orelsem[]angds\OT1/phv/m/n/12 momentet
 
  []
 
 
-Overfull \hbox (34.3109pt too wide) in paragraph at lines 886--888
-[]\OT1/phv/b/n/12 Sektorhastigheten \OT1/phv/m/n/12 (vid centralr[]orelse!) []a
-r kon-stant (\OT1/phv/b/n/12 Keplers
+Overfull \hbox (12.11975pt too wide) in paragraph at lines 890--892
+[]$[]$\OT1/phv/b/n/12 Sektorhastigheten \OT1/phv/m/n/12 (vid centralr[]orelse!)
+
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 988--989
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 1019--1020
 [][] 
  []
 
@@ -1371,7 +1371,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [17]
-Overfull \hbox (9.26245pt too wide) in paragraph at lines 1097--1098
+Overfull \hbox (9.26245pt too wide) in paragraph at lines 1129--1130
 \OT1/phv/m/n/12 En po-ten-ti-ell ener-gi []ar en po-ten-ti-al-funk-tion till et
 t kraftf[]alt.
  []
@@ -1403,19 +1403,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [19]
-Overfull \hbox (1.4035pt too wide) in paragraph at lines 1135--1136
+Overfull \hbox (1.4035pt too wide) in paragraph at lines 1171--1172
 \OT1/phv/m/n/12 ef-ter kol-li-sio-nen) - studs-tal $\OT1/cmr/m/n/12 1$\OT1/phv/
 m/n/12 , [] \OT1/phv/m/sl/12 mi-ni-mal [] \OT1/phv/m/n/12 ener-gif[]orlust 
  []
 
 
-Overfull \hbox (33.77199pt too wide) in paragraph at lines 1136--1137
+Overfull \hbox (33.77199pt too wide) in paragraph at lines 1172--1173
 []\OT1/phv/m/sl/12 inelastisk  \OT1/phv/m/n/12 (par-tik-lar-na r[]or sig som en
  sam-manh[]angande
  []
 
 
-Overfull \hbox (4.42804pt too wide) in paragraph at lines 1136--1137
+Overfull \hbox (4.42804pt too wide) in paragraph at lines 1172--1173
 \OT1/phv/m/n/12 mas-sa ef-ter kol-li-sio-nen) - studs-tal $\OT1/cmr/m/n/12 0$\O
 T1/phv/m/n/12 , [] \OT1/phv/m/sl/12 max-i-mal [] \OT1/phv/m/n/12 ener-
  []
@@ -1434,18 +1434,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [20]
-<snedstöt.png, id=527, 299.1175pt x 271.0125pt>
+<snedstöt.png, id=536, 299.1175pt x 271.0125pt>
 File: snedstöt.png Graphic file (type png)
 <use snedstöt.png>
-Package pdftex.def Info: snedstöt.png  used on input line 1166.
-(pdftex.def)             Requested size: 118.30423pt x 107.18729pt.
+Package pdftex.def Info: snedstöt.png  used on input line 1202.
+(pdftex.def)             Requested size: 142.26378pt x 128.89767pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1167     \caption{Snedstöt.}
+l.1203     \caption{Snedstöt.}
                                
+<ellipsens_geometri.png, id=537, 335.2525pt x 302.12875pt>
+File: ellipsens_geometri.png Graphic file (type png)
+<use ellipsens_geometri.png>
+Package pdftex.def Info: ellipsens_geometri.png  used on input line 1212.
+(pdftex.def)             Requested size: 142.26378pt x 128.20708pt.
+
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
  [][][][][][][] 
  []
@@ -1471,45 +1477,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
-[22] (./main.aux)
+[22 <./ellipsens_geometri.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 66807D9F03C77F49A389110FBC7EB3AC;15526.
+(rerunfilecheck)             Checksum: 815CA15569491964EB5C3D48A233B00A;15848.
  ) 
 Here is how much of TeX's memory you used:
- 24690 strings out of 474104
- 449131 string characters out of 5745485
+ 24704 strings out of 474104
+ 449412 string characters out of 5745485
  1967493 words of memory out of 5000000
- 46468 multiletter control sequences out of 15000+600000
- 594623 words of font info for 91 fonts, out of 8000000 for 9000
+ 46478 multiletter control sequences out of 15000+600000
+ 596383 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,16n,87p,519b,889s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></op
-t/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></opt/texl
-ive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/t
-exdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></opt/texlive/texdi
-r/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/texlive/texdir/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></opt/texlive/texdir/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/texdir/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive/texdir/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr6.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-12.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
-10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/tex-gyre/qagb.pfb></o
-pt/texlive/texdir/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/
-texdir/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></opt/texlive/texdir/tex
-mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/texlive/texdir/texmf-dist/fon
-ts/type1/urw/helvetic/uhvro8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/p
-ublic/wasy-type1/wasy10.pfb>
-Output written on main.pdf (22 pages, 300270 bytes).
+t/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></opt/texl
+ive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></opt/texlive/te
+xdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/texdir/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></opt/texlive/texdir/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/texlive/texdir/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></opt/texlive/texdir/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/texdir/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+></opt/texlive/texdir/texmf-dist/fonts/type1/public/tex-gyre/qagb.pfb></opt/tex
+live/texdir/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir
+/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></opt/texlive/texdir/texmf-dis
+t/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/texlive/texdir/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvro8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/
+wasy-type1/wasy10.pfb>
+Output written on main.pdf (22 pages, 322515 bytes).
 PDF statistics:
- 654 PDF objects out of 1000 (max. 8388607)
- 580 compressed objects within 6 object streams
- 137 named destinations out of 1000 (max. 500000)
- 807 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 671 PDF objects out of 1000 (max. 8388607)
+ 593 compressed objects within 6 object streams
+ 140 named destinations out of 1000 (max. 500000)
+ 828 words of extra memory for PDF output out of 10000 (max. 10000000)
 
