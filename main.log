@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  6 MAY 2024 06:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  7 MAY 2024 06:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1327,7 +1327,7 @@ Overfull \hbox (12.11975pt too wide) in paragraph at lines 890--892
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 1019--1020
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 1020--1021
 [][] 
  []
 
@@ -1371,7 +1371,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [17]
-Overfull \hbox (9.26245pt too wide) in paragraph at lines 1129--1130
+Overfull \hbox (9.26245pt too wide) in paragraph at lines 1134--1135
 \OT1/phv/m/n/12 En po-ten-ti-ell ener-gi []ar en po-ten-ti-al-funk-tion till et
 t kraftf[]alt.
  []
@@ -1390,6 +1390,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [18]
+Overfull \hbox (9.82646pt too wide) in paragraph at lines 1149--1151
+[]\OT1/phv/m/n/12 I ett \OT1/phv/m/sl/12 kon-ser-va-tivt \OT1/phv/m/n/12 kraftf
+[]alt \OT1/phv/m/sl/12 be-va-ras \OT1/phv/m/n/12 to-ta-la me-ka-nis-ka ener-
+ []
+
+
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
  [][][][][][][] 
  []
@@ -1403,19 +1409,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [19]
-Overfull \hbox (1.4035pt too wide) in paragraph at lines 1171--1172
+Overfull \hbox (1.4035pt too wide) in paragraph at lines 1183--1184
 \OT1/phv/m/n/12 ef-ter kol-li-sio-nen) - studs-tal $\OT1/cmr/m/n/12 1$\OT1/phv/
 m/n/12 , [] \OT1/phv/m/sl/12 mi-ni-mal [] \OT1/phv/m/n/12 ener-gif[]orlust 
  []
 
 
-Overfull \hbox (33.77199pt too wide) in paragraph at lines 1172--1173
+Overfull \hbox (33.77199pt too wide) in paragraph at lines 1184--1185
 []\OT1/phv/m/sl/12 inelastisk  \OT1/phv/m/n/12 (par-tik-lar-na r[]or sig som en
  sam-manh[]angande
  []
 
 
-Overfull \hbox (4.42804pt too wide) in paragraph at lines 1172--1173
+Overfull \hbox (4.42804pt too wide) in paragraph at lines 1184--1185
 \OT1/phv/m/n/12 mas-sa ef-ter kol-li-sio-nen) - studs-tal $\OT1/cmr/m/n/12 0$\O
 T1/phv/m/n/12 , [] \OT1/phv/m/sl/12 max-i-mal [] \OT1/phv/m/n/12 ener-
  []
@@ -1434,22 +1440,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [20]
-<snedstöt.png, id=536, 299.1175pt x 271.0125pt>
+<snedstöt.png, id=537, 299.1175pt x 271.0125pt>
 File: snedstöt.png Graphic file (type png)
 <use snedstöt.png>
-Package pdftex.def Info: snedstöt.png  used on input line 1202.
+Package pdftex.def Info: snedstöt.png  used on input line 1214.
 (pdftex.def)             Requested size: 142.26378pt x 128.89767pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1203     \caption{Snedstöt.}
+l.1215     \caption{Snedstöt.}
                                
-<ellipsens_geometri.png, id=537, 335.2525pt x 302.12875pt>
+<ellipsens_geometri.png, id=538, 335.2525pt x 302.12875pt>
 File: ellipsens_geometri.png Graphic file (type png)
 <use ellipsens_geometri.png>
-Package pdftex.def Info: ellipsens_geometri.png  used on input line 1212.
+Package pdftex.def Info: ellipsens_geometri.png  used on input line 1224.
 (pdftex.def)             Requested size: 142.26378pt x 128.20708pt.
 
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
@@ -1477,17 +1483,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
-[22 <./ellipsens_geometri.png>] (./main.aux)
+[22 <./ellipsens_geometri.png>]
+Overfull \hbox (12.66666pt too wide) has occurred while \output is active
+ [][][][][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 38.93336pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.93336pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
+
+[23] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 815CA15569491964EB5C3D48A233B00A;15848.
+(rerunfilecheck)             Checksum: DFDE01C800A3556DE57C71272E80C0F3;15848.
  ) 
 Here is how much of TeX's memory you used:
- 24704 strings out of 474104
- 449412 string characters out of 5745485
+ 24705 strings out of 474104
+ 449419 string characters out of 5745485
  1967493 words of memory out of 5000000
  46478 multiletter control sequences out of 15000+600000
  596383 words of font info for 93 fonts, out of 8000000 for 9000
@@ -1513,10 +1532,10 @@ live/texdir/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir
 t/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/texlive/texdir/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvro8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/
 wasy-type1/wasy10.pfb>
-Output written on main.pdf (22 pages, 322515 bytes).
+Output written on main.pdf (23 pages, 323214 bytes).
 PDF statistics:
- 671 PDF objects out of 1000 (max. 8388607)
- 593 compressed objects within 6 object streams
- 140 named destinations out of 1000 (max. 500000)
+ 676 PDF objects out of 1000 (max. 8388607)
+ 597 compressed objects within 6 object streams
+ 141 named destinations out of 1000 (max. 500000)
  828 words of extra memory for PDF output out of 10000 (max. 10000000)
 
