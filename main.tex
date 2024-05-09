@@ -13,6 +13,7 @@
 \usepackage{wasysym}
 \usepackage{enumitem}
 \usepackage{tabularx}
+\usepackage[title]{appendix}
 \usepackage[dvipsnames]{xcolor}\usepackage{tgadventor}
 \usepackage{helvet}
  \usepackage[stable]{footmisc}
@@ -688,7 +689,7 @@ Nedan är några exempel.
 \end{paracol}
 
 \newpage
-\appendix
+\appendices
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1747892602
 \begin{ankiflashcard}{Ange masscentrum för en kvadrat och triangel.}
@@ -888,8 +889,9 @@ $$\text{impuls: } I = \Delta \vec p = m \Delta \vec v = \underbrace{F\Delta t = 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1139112481
 \begin{ankiflashcard}{Definiera sektorhastigheten vid centralrörelse}
     \underline{\textbf{Keplers 2:a lag:}}\textbf{Sektorhastigheten} (vid centralrörelse!) är konstant.
+    $\boxed{\text{Låt }h=\left|\vec r \times \vec v\right|}$, då gäller
     \begin{itemize}
-        \item Sektorhastighet i kartesiska koordinater:
+        \item Sektorhastighet, allmänt:
         $$\dot A = \frac 1 2 h$$
         \item  Sektorhastighet i cylinderkoordinater:     $$\dot A = \frac 1 2 r^2 \dot \theta$$
     \end{itemize}
@@ -936,7 +938,6 @@ där $C$ är en okänd integrationskonstant.
 \end{itemize}
 \end{ankiflashcard}
 
-=======
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1496501539
 \begin{ankiflashcard}{Formulera eccentricitet.}
@@ -1026,16 +1027,17 @@ Naturliga komponenter betraktar acceleration och hastighet från perspektivet av
     \item $\vec e_t$ Tangentiell komponent
     \item  $\vec e_n$ Normalkomponent
     \item $\vec e_b=\vec e_t \times e_n$ (3D): Binormalen. I 3D har vi tre komposanter av hastighet och acceleration $\vec e_b$ är \textit{normalen} till det \textit{oskulderade planet}, dvs. planet som spänns upp av $\vec e_t$ och $\vec e_n$.
+    $$\boxed{\mathbf{\vec e_b = \vec e_t \times \vec e_n}}$$
 \end{itemize}
-$s(t)$ beskriver partikelns rörelse längs med en kurva.
+$s(t)$ beskriver partikelns båglängd (``sträcka längs kurvan``) som beroende av tiden.
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1337549866
 \begin{ankiflashcard}{Ange ekvationer för läge, hastighet och acceleration i naturliga komponenter.}
     
 \subsubsection{Läge, hastighet, acceleration}
 \begin{itemize}
-    \item \textbf{Läge:}
-    \item \textbf{Hastighet:} $\vec v = \dot s \vec e_t$
+    \item \textbf{Läge:} $\vec r = s \vec e_t$
+    \item \textbf{Hastighet:} $\vec v = \dot s \vec e_t+0 \vec e_n + 0 \vec e_b$
     \item \textbf{Acceleration}: $\numbercirclewithunderbrace{\dot v \vec e_t}{1} + \numbercirclewithunderbrace{\frac{v^2}{\rho} \vec e_n}{2} + 0\numbercirclewithunderbrace{\vec e_b}{3}$. 
 \end{itemize}
 $$\vec a_b = 0$$ gäller alltid.
@@ -1051,7 +1053,7 @@ där $\rho$ är krökningsradie, ``radie av den perfekta cirkeln som passar krin
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 2024831639
 \begin{ankiflashcard}{Ställ upp formeln för krökningsradie (2D)}
-\textbf{I 2D gäller:}
+\textbf{I 2D gäller, för en plan kurva:}
 $$
 \rho = \frac{(1+y'^2)^{\frac{3}{2}}}{\left| y'' \right|}
 $$
@@ -1063,9 +1065,8 @@ $$
     
 \textbf{I 3D gäller:}
 $$
-\rho = \frac{s'^3}{\left| \vec r' \times \vec r'' \right|}
+\rho = \frac{\dot s^3}{\left| \dot{\vec r} \times \ddot{\vec r} \right|}
 $$
-(notera att $s'=v$ och $r'=\vec v$ samt $r'' = \vec a$)
 \end{ankiflashcard}
 
 \subsubsection{Nämnvärda samband vid naturliga komponenter}
@@ -1089,7 +1090,7 @@ $$\vec p = m \vec v$$
 \begin{ankiflashcard}{Vad är sant om rörelsemängdslagen för ett system?}
 \subsection{Rörelsemängden för ett system}
 Rörelsemängden för ett system \textbf{bevaras}, dvs
-$$\vec p_{\text{tot}}^{\prime} = \vec p_{\text{tot}}$$
+$$\vec p_{\text{tot}}^{\prime} = \vec p_{\text{tot}}$$ \underline{\textbf{om}} inga yttre krafter verkar på systemet!
 \end{ankiflashcard}
 
 
@@ -1126,6 +1127,8 @@ $$
 \begin{ankiflashcard}{Definiera effekt.}
 \subsection{Effekt}
 $$P = \vec F \cdot \vec v$$
+Alternativt
+$$dU = Pdt \implies U_{0-1}=\int_{t_0}^{t_1} P dt$$
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1810329220
@@ -1172,6 +1175,11 @@ T + V = E = \text{konst.}
 $
 \textit{(den totala mekaniska energin är konstant i alla punkter om endast en konservativ kraft utför arbete)}.
 \end{ankiflashcard}
+\begin{ankiflashcard}{Vad gäller för ett systems rörelsemängd?} 
+\subsubsection{Rörelsemängden för ett system bevaras}
+$$\vec p=\vec p'$$
+Detta gäller även vid stötar (se nedan) och samma princip för rörelsemängdsmomentet (se till vänster)
+\end{ankiflashcard}
 
 \subsection{Stötar}
 En stöt är en impuls som sker under en (mycket) kort tid. En stöt kan vara något på skalan mellan:
@@ -1186,10 +1194,11 @@ En stöt är en impuls som sker under en (mycket) kort tid. En stöt kan vara n�
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1506454723
-\begin{ankiflashcard}{Formulera stötimpulslagen för två partiklar}
-\subsubsection{Stötimpulslagen för två partiklar}
-$$\vec I_{12} = m(\vec v^{\prime} - \vec v)$$
+\begin{ankiflashcard}{Formulera stötimpulslagen för en partikel}
+\subsubsection{Stötimpulslagen för en partikel}
+$$\vec I_{12} = p'-p=m(\vec v^{\prime} - \vec v)$$
 \end{ankiflashcard}
+
 
 \subsubsection{Studstal}
 Studstalet är måttet på hur elastisk en stöt är och definieras:
@@ -1233,6 +1242,11 @@ $$
 \tau = 2\pi \frac{a^{3/2}}{\sqrt{GM}}
 $$
 \end{ankiflashcard}
-
 \end{paracol}
+\newpage
+\appendices
+\section{Astronomisk ordlista}
+\begin{itemize}
+    \item 
+\end{itemize}
 \end{document}
