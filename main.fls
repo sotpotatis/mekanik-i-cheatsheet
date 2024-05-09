@@ -128,6 +128,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/tools/array.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/tools/array.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/appendix/appendix.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/appendix/appendix.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -395,6 +397,7 @@ INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
 INPUT /opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb
+INPUT /opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb
 INPUT /opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
