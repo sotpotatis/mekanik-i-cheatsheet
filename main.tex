@@ -764,11 +764,12 @@ Skillnaden från rätlinjig rörelse är att läget beskrivs som en vektorvärd 
 \subsubsection{Enhetsvektorer}
 
 \begin{itemize}
-    \item $\vec e_r$: Enhetsvektor längs med radien i polära koordinater.
+    \item $\vec e_r$: Enhetsvektor längs med radien av en cirkel i $xy$-planet, dvs. analogt med polära koordinater.
     $$e_r = (\cos \theta, \sin \theta, 0)$$
-    \item $\vec e_\theta$: Enhetsvektor längs med vinkeln i polära koordinater
+    \item $\vec e_\theta$: Enhetsvektor längs med vinkeln mot $\vec e_r$ i $xy$-planet, enligt
     $$e_\theta = (\cos \left[\theta + \frac{\pi}{2}\right], \sin \left[\theta + \frac{\pi}{2}\right], 0)$$
-    \item $\vec e_z$: Enhetsvektor i vertikalriktningen (ges av $$(0,0,1)$$)
+    \textit{(observera att $\cos \left[\theta + \frac{\pi}{2}\right]=-sin \theta$ och $\sin \left[\theta + \frac{\pi}{2}\right]=\cos \theta$)}
+    \item $\vec e_z$: Enhetsvektor i vertikalriktningen: $$(0,0,1)$$
 \end{itemize}
 \end{ankiflashcard}
 
@@ -1065,8 +1066,13 @@ $$
     
 \textbf{I 3D gäller:}
 $$
-\rho = \frac{\dot s^3}{\left| \dot{\vec r} \times \ddot{\vec r} \right|}
+\rho = \frac{\left|v\right|^3}{\left| \vec v \times \vec a \right|}
 $$
+$\Rightarrow$ Notera följande:
+\begin{itemize}
+    \item $\left|v\right|=\dot s$
+    \item $\vec v$ och $\vec a$ är funktioner av tiden som ger hastighet och accelerationen i en viss punkt. Detta är analogt med $\vec v = \vec r'$, $\vec a = \vec r''$. OBS att det går att derivera med avseende på annat än tiden beroende på hur $r$ är uttryckt!
+\end{itemize}
 \end{ankiflashcard}
 
 \subsubsection{Nämnvärda samband vid naturliga komponenter}
