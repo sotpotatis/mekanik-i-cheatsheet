@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1715361544.59063 "main.tex" "main.pdf" "main" 1715361545.64962 0
+["pdflatex"] 1715365919.12613 "main.tex" "main.pdf" "main" 1715365920.19319 0
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc" 1529098226 2409 c64dab22331c83731e970f6020b4448b ""
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -221,12 +221,12 @@
   "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1710526743 5474057 0e247e3d9fce991a4488ab3d51f40cf4 ""
   "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1710526795 8222868 33e706e8e4a002dff6cd9168082f108c ""
   "/opt/texlive/texdir/texmf.cnf" 1710526736 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "ellipsens_geometri.png" 1715361541.7581 15751 d3c1e16ed280023c7ffad3ecc52bdd74 ""
-  "ersättningsmoment.png" 1715361541.7621 15951 283edca25d9079bae0b2dd6fcc9c83f7 ""
-  "main.aux" 1715361545.44611 12076 977422c15a9a69bf91c73b7d9b296488 "pdflatex"
-  "main.out" 1715361545.45011 16524 d841191b1403af22b15f10bd07331a14 "pdflatex"
-  "main.tex" 1715361543.0941 45728 5fa37661a1c607709bc9a4227f3e3246 ""
-  "snedstöt.png" 1715361541.7621 4363 c69e0e493390051b96c2672219210c78 ""
+  "ellipsens_geometri.png" 1715365912.75128 15751 d3c1e16ed280023c7ffad3ecc52bdd74 ""
+  "ersättningsmoment.png" 1715365912.75128 15951 283edca25d9079bae0b2dd6fcc9c83f7 ""
+  "main.aux" 1715365919.98727 12076 bdba99d67db75f71fda7b7c482dc9955 "pdflatex"
+  "main.out" 1715365919.99127 16524 d38a18ec102f308120e568fb5b5219f2 "pdflatex"
+  "main.tex" 1715365917.56727 46283 896d967ecd9d34af62265b2d6608d308 ""
+  "snedstöt.png" 1715365912.75528 4363 c69e0e493390051b96c2672219210c78 ""
   (generated)
   "main.aux"
   "main.log"
