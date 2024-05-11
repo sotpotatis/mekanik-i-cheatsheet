@@ -911,9 +911,9 @@ där $u=\frac{1}{r}$ och $h=r^2\dot \theta$ för cirkelrörelse.
     
 Formeln ger
 $$
-r=\frac{\frac{h^2}{GM}}{1+(\frac{h^2C}{GM})\cos \theta}
+r=\frac{\frac{h^2}{GM}}{1+(\frac{h^2}{GM})C\cos \theta}
 $$
-där $C$ är en okänd integrationskonstant.
+där $C$ är en integrationskonstant som kan fås (vid rörelse runt jorden) genom $$C=\frac{egR^2}{h^2}$$ alternativt genom $$C=\frac{1}{r_0}(1-\frac{gR^2}{r_0v_0^2})$$ där $r_0$ är minsta avståndet till jorden (perrigeum) och $v_0$ är ursprungliga hastigheten av rymdfarkosten.
 \end{ankiflashcard}
 \subsection{Ellipsens geometri}
 
@@ -938,7 +938,12 @@ där $C$ är en okänd integrationskonstant.
     \item $a^2=b^2+c^2$ (läs detta igen, det är inte samma benämning som Pythagoras sats!)
 \end{itemize}
 \end{ankiflashcard}
-
+\begin{ankiflashcard}{Ställ upp ellipsens ekvation (som funktion av vinkeln)}
+\textbf{Ellipsens ekvation}
+$$
+r=\frac{(1-e^2)a}{1+e\cos \theta}
+$$
+\end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1496501539
 \begin{ankiflashcard}{Formulera eccentricitet.}
@@ -1207,7 +1212,7 @@ En stöt är en impuls som sker under en (mycket) kort tid. En stöt kan vara n�
 \begin{ankiflashcard}{Förklara de olika typerna av stötar som finns, hur energiförlusten ser ut och vad studstalet är.}
     
 \begin{itemize}
-    \item \textit{elastisk} (partiklarna rör sig separat från varandra efter kollisionen) - studstal $1$, \color{blue}\textit{minimal }\color{black} energiförlust
+    \item \textit{elastisk} (partiklarna rör sig separat från varandra efter kollisionen) - studstal $1$, \color{blue}\textit{ingen }\color{black} energiförlust \underline{om} $e=1$ (annars liten energiförlust).
     \item  \textit{inelastisk } (partiklarna rör sig som en sammanhängande massa efter kollisionen) - studstal $0$, \color{red}\textit{maximal }\color{black} energiförlust
 \end{itemize}
 \end{ankiflashcard}
