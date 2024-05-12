@@ -838,7 +838,7 @@ $$
     $$
     V = \frac{1}{2}k(\Delta l)^2
     $$ .
-    där $\Delta l=l_1-l_0$ och $l_0$ är fjäderns naturliga (ospända) läge
+    där $\Delta l=l_1-l_0$ och $l_0$ är fjäderns naturliga (ospända) läge (jämför med fjäderkraften: $^2$ \underline{och} $\frac 1 2$)
 \end{ankiflashcard}
 \ruler
 
@@ -1106,24 +1106,29 @@ Rörelsemängden för ett system \textbf{bevaras}, dvs
 $$\vec p_{\text{tot}}^{\prime} = \vec p_{\text{tot}}$$ \underline{\textbf{om}} inga yttre krafter verkar på systemet!
 \end{ankiflashcard}
 
-
-% DONOTREMOVE ANKI-FLASHCARD GUID 1119262849
-\begin{ankiflashcard}{Forumlera Newtons andra lag}
-\subsubsection{Kraftsumma (och Newtons andra lag)}
-Summan av alla krafter som verkar på ett system är tidsderivatan av dess rörelsemängd:
-$$\dot{\vec p} = \vec F$$
-\textit{Då massan inte ändras över tid} (t.ex för en partikel), gäller
-$$\vec F= \frac{\Delta \vec p}{\Delta t} = m\vec a$$
-Detta gäller i alla koordinatsystem, exempelvis i naturliga komponenter:
-$$\vec F = m(\vec a_t + \vec a_n)$$
-\end{ankiflashcard}
-
-
+\subsection{Newtons lagar}
 % DONOTREMOVE ANKI-FLASHCARD GUID 1658071557
 \begin{ankiflashcard}{Vad säger Newtons första lag?}
     
 \subsubsection{Newtons 1:a lag}
+$I.$ \textit{``En kropp är i vila eller rör sig med konstant hastighet om kraftsumman är $0$.``}
 $$\vec F = 0 \iff \vec v: \text{konstant}$$
+\end{ankiflashcard}
+
+% DONOTREMOVE ANKI-FLASHCARD GUID 1119262849
+\begin{ankiflashcard}{Forumlera Newtons andra lag}
+\subsubsection{Kraftsumma (och Newtons 2:a lag)}
+Summan av alla krafter som verkar på ett system är tidsderivatan av dess rörelsemängd:
+$$\dot{\vec p} = \vec F$$
+$II.$ \textit{``Då massan inte ändras över tid (t.ex för en partikel), gäller
+$$\sum \vec F= \frac{\Delta \vec p}{\Delta t} = m\vec a$$``}
+(Newtons andra lag)
+Detta gäller i alla koordinatsystem, exempelvis i naturliga komponenter:
+$$\sum \vec F = m(\vec a_t + \vec a_n)$$
+\end{ankiflashcard}
+\begin{ankiflashcard}{Formulera Newtons tredje lag}
+\subsubsection{Newtons 3:e lag}
+$III.$ \textit{``Två kroppar påverkar varandra med lika men motåtriktade krafter - varje kraft har en motkraft``}
 \end{ankiflashcard}
 
 \subsection{Arbete, allmänt}
@@ -1149,13 +1154,20 @@ $$dU = Pdt \implies U_{0-1}=\int_{t_0}^{t_1} P dt$$
 \subsection{Potentiell energi}
 En potentiell energi är en potentialfunktion till ett kraftfält. \textit{Observera att} den definieras åt ``andra riktningen`` än vad man kanske är van med från flervariabeln!
 
+
+En potentialfunktion definieras som en funktion som ger värdet av kurvintegralen
+$$
+V(\boxed{\vec r}) = \mathbf{-}\int_{\vec r_0}^{\boxed{\vec r}} \vec F \cdot d\vec r 
+$$
+där $r_0$ är en referenspunkt/``nollnivå``, $\vec r$ är det aktuella läget.
+
 Arbetet som potentiella energin utför är
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1789149398
 $$
 U_{1-2} = V_1 - V_2
 $$
-(från flervariabeln: $U_{1-2}=V_2-V_1$)
+(från flervariabeln - andra hållet: $U_{1-2}=V_2-V_1$)
 \end{ankiflashcard}
 
 
