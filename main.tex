@@ -18,6 +18,7 @@
 \usepackage{helvet}
  \usepackage[stable]{footmisc}
 \usepackage{parskip}
+\usepackage[swedish]{babel}
 \usepackage{dirtytalk}
 \usepackage[a4paper, landscape]{geometry}
 \renewcommand{\headrule}{}
@@ -689,8 +690,8 @@ Nedan är några exempel.
 \end{paracol}
 
 \newpage
-\appendices
-
+\begin{appendix}
+\appendixpage
 % DONOTREMOVE ANKI-FLASHCARD GUID 1747892602
 \begin{ankiflashcard}{Ange masscentrum för en kvadrat och triangel.}
     
@@ -708,7 +709,15 @@ Nedan är några exempel.
 \end{tabular}
 }
 \end{ankiflashcard}
-
+\end{appendix}
+\section{Översikt av några vanliga krafter}
+Dessa förekommer i uppgifter och är därför bra allmänbildning.
+\begin{ankiflashcard}{Ange formeln för lyftkraft och tryckkraft}
+\begin{itemize}
+    \item    Lyftkraft i en vätska: $F=\rho \Delta V g$ där $\Delta V$ är den undanträngda volymen.
+    \item Tryckkraft: $F=PA$ där $P$ är trycket och $A$ är arean som verkas på.
+\end{itemize}
+\end{ankiflashcard}
 \newpage
 \midtitle{Dynamik}
 \newpage
@@ -997,6 +1006,71 @@ E = -\frac{GmM}{2a}
 $$
 
 \small{Detta samband gör det EXTREMT enkelt att bestämma hastigheten för något som kretsar kring jorden!}
+\end{ankiflashcard}
+\section{Svängningar}
+\subsection{Allmänt}
+\begin{ankiflashcard}{Definiera periodtiden för svängningar.}
+\subsubsection{Periodtid}
+$$\tau = \frac{2\pi}{\omega}$$
+där $\omega$ varierar beroende på vad för typ av svängning det är. För odämpad svängning används $\omega_n$, för dämpad svängning används $\omega_d$, osv.
+\end{ankiflashcard}
+
+\begin{ankiflashcard}{Hur kan man konvertera mellan lösningar för svängningsekvationen?}
+x\subsubsection{Konvertera lösningar}
+Konverteringen $A\sin(\omega t)+B\cos(\omega t) \leftrightarrow C\sin(\omega t + \alpha)$ fås genom
+$\tan \alpha = \frac{B}{A}$, $C=\sqrt{A^2+B^2}$ där $C$ är amplituden och $\alpha$ är fasvinkeln.
+\end{ankiflashcard}
+
+\subsubsection{Komponenter av svängningsekvationen}
+Differentialekvationen för svängningar kan innehålla:
+\begin{ankiflashcard}{Definiera beteckningarna för fjäder och dämpare.}
+    
+\begin{itemize}
+    \item Fjäder: $\omega_n^2 = \frac k m$
+    \item Dämpare: $2\zeta \omega_n = \frac c m$
+\end{itemize}
+\end{ankiflashcard}
+\subsubsection{Svängningsterminologi}
+\begin{ankiflashcard}{Förklara vad dämpade och odämpade svängningar är samt vad fria och påtvingade svängningar är för något.}
+\begin{itemize}
+    \item \textbf{Fria svängningar: } ett system som svänger av sig självt naturligt, dvs. inte påverkas av någon yttre kraft utsätts för denna typ av svängningar.
+    \textit{Exempel} en vikt som hänger i en fjäder.
+    \item \textbf{Påtvingade svängningar: } ett system som svänger på grund av en extern periodisk kraft utsätts för påtvingade svängningar.
+    \item \textbf{Odämpade svängningar: } Ingen dämpare är införd (duh!)
+    \item \textbf{Dämpade svängningar: } Påverkas av en dämpare med viss konstant som påverkar hur svängningarna utförs.
+\end{itemize}
+\end{ankiflashcard}
+\subsection{Dämpade svängningar}
+\subsubsection{Vinkelfrekvens}
+\begin{ankiflashcard}{Definiera vinkelfrekvens för dämpade svängningar}
+    
+Vinkelfrekvensen för dämpade svängningar: $$\omega_d = \omega_n \sqrt{1-\zeta^2}$$
+\end{ankiflashcard}
+\subsubsection{Olika typer av dämpningar}
+\begin{ankiflashcard}{Definiera de olika typerna av dämpning}
+    
+\paragraph{\color{red}Stark\color{black}  \quad dämpning}, $\zeta > 1$:
+Lösningen till ekvationen beskriver ingen periodisk rörelse. 
+Den passerar jämviktsläget en gång och går sedan mot 0.
+
+
+\paragraph{\color{orange}Kritisk\color{black} 
+ \quad dämpning}, $\zeta = 1$:
+Se stark dämpning.
+
+
+\paragraph{\color{green}Svag\color{black} 
+ \quad dämpning}, $\zeta < 1$:
+Lösningen till ekvationen beskriver en periodisk rörelse. Jämviktsläget passeras oändligt många gånger men amplituden minskar.
+\end{ankiflashcard}
+
+\begin{ankiflashcard}{Definiera det logaritmiska dekrementet.}
+
+\subsubsection{Logaritmiska dekrementet}
+    
+Om man mäter upp två värden $x(t)$ där $x$ är din differentialekvation som skiljer sig åt med periodtiden $\tau_d$, kan dämpningskonstanten hittas från
+$$\delta = \ln \frac{x_1}{x_2}$$
+$$\zeta = \frac{\delta}{\sqrt{4\pi^2 + \delta^2}}$$
 \end{ankiflashcard}
 
 \switchcolumn
@@ -1291,11 +1365,55 @@ $\implies$ \textit{Trevliga följdsamband}:
     \item $\tau \propto (\frac{1}{E})^{3/2}$ (se \textit{Banenergi kopplat till storaxelns längd})
 \end{itemize}
 \end{ankiflashcard}
+\ruler
+\subsection{Mall för olika typer av svängingar}
+Differentialekvationen för de olika svängningarna är på formen:
+\begin{ankiflashcard}{Ange basekvationerna för odämpade svängingar}
+    
+\paragraph{Odämpad svängning}
+$$\ddot x + \frac{k}{m} x = \ddot x+\omega_n^2 x=\begin{cases}
+\frac{F_0}{m} \sin \omega t \quad\text{om påtvingad}\\
+0 \quad\text{om fri}
+\end{cases}
+$$
+\end{ankiflashcard}
+\begin{ankiflashcard}{Ange basekvationerna för dämpade svängingar}
+\paragraph{Dämpad svängning}
+$$\ddot x + \frac{k}{m} x +  \frac{c}{m} \dot x = \ddot x+\omega_n^2 x+2\zeta \omega_n \dot x=\begin{cases}
+\frac{F_0}{m} \sin \omega t \quad\text{om påtvingad}\\
+0 \quad \text{om fri}
+\end{cases}$$
+\end{ankiflashcard}
+\begin{ankiflashcard}{Skriv upp formler för påtvingade svängningar}
+    \subsection{Amplitud för påtvingade svängningar}
+    Om en svängning påverkas av en kraft $\frac{F_0}{m}\sin/\cos \omega t$ gäller (amplituden $X$ är...):
+    \begin{itemize}
+        \item \textbf{Påtvingad, odämpad svängning: }$$X=\frac{F_0/k}{1-(\omega/\omega_n)^2}$$
+        \item \textbf{Påtvingad, dämpad svängning: }$$X=\frac{F_0/k}{\sqrt{\left[1-(\omega/\omega_n)^2\right]^2+4\zeta^2(\omega/\omega_n)^2}}$$
+    \end{itemize}
+    Fullständiga partikulärlösningen: $x_p=X\sin / \cos \omega t$
+\end{ankiflashcard}
+\begin{ankiflashcard}{När ökar amplituden för påtvingade svängningar obegränsat?}
+    \subsection{Kritisk frekvens för påtvingade svängningar}
+    Om $\omega = \omega_n$ kommer amplituden öka obegränsat. Om en uppgift frågar efter den ``kritiska`` amplituden är det detta som avses!
+\end{ankiflashcard}
+\begin{ankiflashcard}{Definera förstorningsfaktor}
+    Med svängningarnas amplitud $X$ kan förstoringsfaktorn (hur mycket amplituden ökar jämfört med jämviktsläget om en konstant kraft skulle inverka) defineras som
+    $$M=\frac{X}{X|_{\omega=0}}$$.
+\end{ankiflashcard}
 \end{paracol}
 \newpage
-\appendices
+\begin{appendix}
+\appendixpage
 \section{Astronomisk ordlista}
 \begin{itemize}
     \item 
 \end{itemize}
+\begin{ankiflashcard}{Ange additionsformler för sinus och cosinus}
+    \section{Sinus- och cosinusadditionsformler}
+    Förekommer då och då i uppgifter, därför relevant att kunna dessa.
+    $$\sin(\alpha\pm\beta)=\sin \alpha \cos \beta \pm \cos \alpha \sin \beta$$
+     $$\cos(\alpha\pm\beta)=\cos \alpha \cos \beta \pm \sin \alpha \sin \beta$$
+\end{ankiflashcard}
+\end{appendix}
 \end{document}
