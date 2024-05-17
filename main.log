@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  12 MAY 2024 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  17 MAY 2024 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -852,7 +852,7 @@ kzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
-0.
+1.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
@@ -865,24 +865,24 @@ File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 (/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -906,7 +906,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 80.
+Package hyperref Info: Link coloring OFF on input line 81.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -948,26 +948,26 @@ Package hyperref Info: Link coloring OFF on input line 80.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 83.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 83
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 84
 .
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 83.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 84.
 
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
  [][][][][][][] 
@@ -998,79 +998,79 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 LaTeX Font Info:    Trying to load font information for OT1+qag on input line 8
-7.
+8.
  (/opt/texlive/texdir/texmf-dist/tex/latex/tex-gyre/ot1qag.fd
 File: ot1qag.fd 2009/09/25 v1.2 font definition file for OT1/qag
 )
-Overfull \hbox (19.04388pt too wide) in paragraph at lines 132--133
+Overfull \hbox (19.04388pt too wide) in paragraph at lines 133--134
 \OT1/phv/m/n/12 Observera att \OT1/phv/m/sl/12 kryss-pro-duk-tens be-lopp=arean
  som sp[]anns
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-48.
+49.
 (/opt/texlive/texdir/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
-Overfull \hbox (166.22406pt too wide) in paragraph at lines 167--170
+Overfull \hbox (166.22406pt too wide) in paragraph at lines 168--171
 \OT1/phv/m/n/12 ment-sum-man []ar den-sam-ma.  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--170
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
 
  []
 
 
-Overfull \hbox (69.25786pt too wide) in paragraph at lines 193--196
+Overfull \hbox (69.25786pt too wide) in paragraph at lines 194--197
 []\OT1/phv/m/n/12 Notera []aven att $[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Fh  
 []$
  []
 
-<ersättningsmoment.png, id=447, 478.78876pt x 251.94125pt>
+<ersättningsmoment.png, id=507, 478.78876pt x 251.94125pt>
 File: ersättningsmoment.png Graphic file (type png)
 <use ersättningsmoment.png>
-Package pdftex.def Info: ersättningsmoment.png  used on input line 213.
+Package pdftex.def Info: ersättningsmoment.png  used on input line 214.
 (pdftex.def)             Requested size: 142.26378pt x 74.86021pt.
 
-Overfull \hbox (16.97958pt too wide) in paragraph at lines 241--242
+Overfull \hbox (16.97958pt too wide) in paragraph at lines 242--243
 []\OT1/phv/m/sl/12 Flytt av re-duk-tions-re-sul-tat \OT1/phv/m/n/12 ger att mo-
 ment-sum-man []andras
  []
 
 
-Overfull \hbox (61.81918pt too wide) detected at line 243
+Overfull \hbox (61.81918pt too wide) detected at line 244
 [] \OT1/cmr/m/n/12 = [] + [] \OMS/cmsy/m/n/12 ^^B [] []
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 243--246
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 244--247
 [] 
  []
 
 
-Overfull \hbox (70.67967pt too wide) detected at line 256
+Overfull \hbox (70.67967pt too wide) detected at line 257
 \OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/12 ^^Yy[]l[]   \OT1/cmr/m/n
 /12 =[]\OMS/cmsy/m/n/12 )  \OML/cmm/m/it/12 y[] \OT1/cmr/m/n/12 = [] []
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 278--279
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 279--280
 [][] 
  []
 
 
-Overfull \hbox (8.12204pt too wide) detected at line 359
+Overfull \hbox (8.12204pt too wide) detected at line 360
 [] \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^B []  []
  []
 
 
-Overfull \hbox (4.47534pt too wide) detected at line 374
+Overfull \hbox (4.47534pt too wide) detected at line 375
 [] \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^A []  []
  []
 
 
-Overfull \hbox (203.41608pt too wide) in paragraph at lines 381--384
+Overfull \hbox (203.41608pt too wide) in paragraph at lines 382--385
 \OT1/phv/m/n/12 nings-lin-je kan f[]orenkla ber[]akningar.   [] 
  []
 
@@ -1088,7 +1088,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [3{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}]
-Overfull \hbox (7.70253pt too wide) in paragraph at lines 398--400
+Overfull \hbox (7.70253pt too wide) in paragraph at lines 399--401
 \OT1/cmr/m/n/12 [\OML/cmm/m/it/12 storhet\OT1/cmr/m/n/12 ]$\OT1/phv/m/n/12 , t.
 ex. $\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 ] = \OML/cmm/m/it/12 L$
 \OT1/phv/m/n/12 . Al-ter-na-tiv be-teck-ning: $\OML/cmm/m/it/12 dim[]$\OT1/phv/
@@ -1096,14 +1096,14 @@ m/n/12 ,
  []
 
 
-Overfull \hbox (0.59683pt too wide) in paragraph at lines 416--418
+Overfull \hbox (0.59683pt too wide) in paragraph at lines 417--419
 \OT1/phv/m/n/12 ans[]att po-ten-ser-na $\OML/cmm/m/it/12 $\OT1/phv/m/n/12 , $\
 OML/cmm/m/it/12 ^^L$ \OT1/phv/m/n/12 och $\OML/cmm/m/it/12 ^^M$ \OT1/phv/m/n/12
  samt den di-men-sionsl[]osa
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 423--424
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 424--425
 [][] 
  []
 
@@ -1134,7 +1134,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [5]
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 494--495
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 495--496
 [][] 
  []
 
@@ -1165,7 +1165,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [7 <./ersättningsmoment.png>]
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 557--558
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 558--559
 [][] 
  []
 
@@ -1183,24 +1183,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [8]
-Overfull \hbox (8.23656pt too wide) in paragraph at lines 583--586
+Overfull \hbox (8.23656pt too wide) in paragraph at lines 584--587
 \OT1/phv/m/sl/12 Observera \OT1/phv/m/n/12 att mo-men-tet i $\OML/cmm/m/it/12 z
 $\OT1/phv/m/n/12 -led []ar det en-da som beh[]over
  []
 
 
-Overfull \hbox (13.1613pt too wide) detected at line 599
+Overfull \hbox (13.1613pt too wide) detected at line 600
 []  [][][] \OMS/cmsy/m/n/12 k [][]\OML/cmm/m/it/12 :
  []
 
 
-Overfull \hbox (18.27557pt too wide) in paragraph at lines 617--618
+Overfull \hbox (18.27557pt too wide) in paragraph at lines 618--619
 []\OT1/phv/m/n/12 Ett pro-blem d[]ar du har f[]arre obe-ro-en-de j[]amviktsekva
 tioner
  []
 
 
-Overfull \hbox (22.97926pt too wide) in paragraph at lines 624--625
+Overfull \hbox (22.97926pt too wide) in paragraph at lines 625--626
 \OT1/phv/m/n/12 f[]orem[]al finns det all-tid en mot-kraft som ver-kar p[]a f[]
 orem[]alet,
  []
@@ -1219,7 +1219,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [9]
-Overfull \hbox (4.96022pt too wide) in paragraph at lines 638--639
+Overfull \hbox (4.96022pt too wide) in paragraph at lines 639--640
 []\OT1/phv/m/n/12 P[]averkas av en re-ak-tions-kraft vin-kelr[]att mot l[]anken
  
  []
@@ -1290,61 +1290,96 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [14]
-Overfull \hbox (9.19792pt too wide) in paragraph at lines 770--772
+Overfull \hbox (9.19792pt too wide) in paragraph at lines 781--783
 \OT1/phv/m/sl/12 (observera att $[] [] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\O
 ML/cmm/m/it/12 sin^^R$ \OT1/phv/m/sl/12 och $[] [] \OT1/cmr/m/n/12 =
  []
 
 LaTeX Font Info:    Trying to load font information for OMS+phv on input line 7
-83.
+94.
 (/opt/texlive/texdir/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 783.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 794.
 
-Overfull \hbox (2.06567pt too wide) in paragraph at lines 783--785
+Overfull \hbox (2.06567pt too wide) in paragraph at lines 794--796
 []\OT1/phv/b/n/12 Acceleration: $[] \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 v \OT1
 /cmr/m/n/12 = [] [] + [] \OML/cmm/m/it/12 e[] \OT1/cmr/m/n/12 +
  []
 
 
-Overfull \hbox (9.15387pt too wide) in paragraph at lines 800--802
+Overfull \hbox (9.15387pt too wide) in paragraph at lines 811--813
  []\OT1/qag/b/n/10 N[]amnv[]arda sam-band vid cir-kelr[]orelse[] \OT1/phv/m/n/1
 2 F[]or en par-ti-kel som
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 803--804
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 814--815
 [][] 
  []
 
 
-Overfull \hbox (221.08008pt too wide) in paragraph at lines 840--844
+Overfull \hbox (221.08008pt too wide) in paragraph at lines 851--855
 \OT1/phv/m/n/12 l[]age (j[]amf[]or med fj[]aderkraften: $[]$ $[]$ $[]$)   [] 
  []
 
 
-Overfull \hbox (4.46844pt too wide) in paragraph at lines 885--886
+Overfull \hbox (4.46844pt too wide) in paragraph at lines 896--897
 []\OT1/phv/m/sl/12 Kraft\OT1/phv/m/n/12 momentet []ar $\OT1/cmr/m/n/12 0$ $ =[]
 \OMS/cmsy/m/n/12 ) $ \OT1/phv/m/sl/12 r[]orelsem[]angds\OT1/phv/m/n/12 momentet
 
  []
 
 
-Overfull \hbox (12.11975pt too wide) in paragraph at lines 892--895
+Overfull \hbox (12.11975pt too wide) in paragraph at lines 903--906
 []$[]$\OT1/phv/b/n/12 Sektorhastigheten \OT1/phv/m/n/12 (vid centralr[]orelse!)
 
  []
 
 
-Overfull \hbox (8.68025pt too wide) in paragraph at lines 915--916
+Overfull \hbox (8.68025pt too wide) in paragraph at lines 926--927
 \OT1/phv/m/n/12 d[]ar $\OML/cmm/m/it/12 C$ []\OT1/phv/m/n/12 ar en in-teg-ra-ti
 ons-kon-stant som kan f[]as (vid r[]orelse
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 1029--1030
+Overfull \hbox (6.18756pt too wide) in paragraph at lines 1018--1021
+\OT1/phv/m/n/12 det []ar. F[]or od[]ampad sv[]angning anv[]ands $\OML/cmm/m/it/
+12 ![]$\OT1/phv/m/n/12 , f[]or d[]ampad
+ []
+
+
+Overfull \hbox (10.5693pt too wide) in paragraph at lines 1048--1049
+[]\OT1/phv/b/n/12 P[]atvingade sv[]angningar:  \OT1/phv/m/n/12 ett sy-stem som 
+sv[]anger
+ []
+
+
+Overfull \hbox (9.92096pt too wide) in paragraph at lines 1049--1050
+[]\OT1/phv/b/n/12 Od[]ampade sv[]angningar:  \OT1/phv/m/n/12 Ing-en d[]ampare [
+]ar inf[]ord
+ []
+
+
+Overfull \hbox (6.88538pt too wide) in paragraph at lines 1050--1051
+[]\OT1/phv/b/n/12 D[]ampade sv[]angningar:  \OT1/phv/m/n/12 P[]averkas av en d[
+]ampare
+ []
+
+
+Overfull \hbox (9.19647pt too wide) in paragraph at lines 1050--1051
+\OT1/phv/m/n/12 med viss kon-stant som p[]averkar hur sv[]angningarna
+ []
+
+
+Overfull \hbox (19.99661pt too wide) in paragraph at lines 1066--1069
+\OT1/phv/m/n/12 skri-ver ing-en pe-ri-o-disk r[]orelse. Den pas-se-rar j[]amvik
+tsl[]aget
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 1119--1120
 [][] 
  []
 
@@ -1401,13 +1436,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [18]
-Overfull \hbox (45.16055pt too wide) in paragraph at lines 1133--1135
+Overfull \hbox (45.16055pt too wide) in paragraph at lines 1223--1225
 $\OML/cmm/m/it/12 III:$ \OT1/phv/m/sl/12 ``Tv[]a krop-par p[]averkar varand-ra 
 med li-ka men mot[]atriktade
  []
 
 
-Overfull \hbox (9.26245pt too wide) in paragraph at lines 1157--1158
+Overfull \hbox (9.26245pt too wide) in paragraph at lines 1247--1248
 \OT1/phv/m/n/12 En po-ten-ti-ell ener-gi []ar en po-ten-ti-al-funk-tion till et
 t kraftf[]alt.
  []
@@ -1426,13 +1461,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [19]
-Overfull \hbox (9.82646pt too wide) in paragraph at lines 1179--1181
+Overfull \hbox (9.82646pt too wide) in paragraph at lines 1269--1271
 []\OT1/phv/m/n/12 I ett \OT1/phv/m/sl/12 kon-ser-va-tivt \OT1/phv/m/n/12 kraftf
 []alt \OT1/phv/m/sl/12 be-va-ras \OT1/phv/m/n/12 to-ta-la me-ka-nis-ka ener-
  []
 
 
-Overfull \hbox (2.01517pt too wide) in paragraph at lines 1189--1193
+Overfull \hbox (2.01517pt too wide) in paragraph at lines 1279--1283
 \OT1/phv/m/sl/12 ``Arbetet utf[]ort mel-lan tv[]a punk-ter []ar li-ka med []and
 ringen
  []
@@ -1464,28 +1499,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [21]
-Overfull \hbox (33.77199pt too wide) in paragraph at lines 1232--1233
+Overfull \hbox (33.77199pt too wide) in paragraph at lines 1322--1323
 []\OT1/phv/m/sl/12 inelastisk  \OT1/phv/m/n/12 (par-tik-lar-na r[]or sig som en
  sam-manh[]angande
  []
 
 
-Overfull \hbox (4.42804pt too wide) in paragraph at lines 1232--1233
+Overfull \hbox (4.42804pt too wide) in paragraph at lines 1322--1323
 \OT1/phv/m/n/12 mas-sa ef-ter kol-li-sio-nen) - studs-tal $\OT1/cmr/m/n/12 0$\O
 T1/phv/m/n/12 , [] \OT1/phv/m/sl/12 max-i-mal [] \OT1/phv/m/n/12 ener-
  []
 
-<snedstöt.png, id=562, 299.1175pt x 271.0125pt>
+<snedstöt.png, id=623, 299.1175pt x 271.0125pt>
 File: snedstöt.png Graphic file (type png)
 <use snedstöt.png>
-Package pdftex.def Info: snedstöt.png  used on input line 1263.
+Package pdftex.def Info: snedstöt.png  used on input line 1353.
 (pdftex.def)             Requested size: 142.26378pt x 128.89767pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1264     \caption{Snedstöt.}
+l.1354     \caption{Snedstöt.}
                                
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
  [][][][][][][] 
@@ -1500,10 +1535,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [22]
-<ellipsens_geometri.png, id=568, 335.2525pt x 302.12875pt>
+<ellipsens_geometri.png, id=628, 335.2525pt x 302.12875pt>
 File: ellipsens_geometri.png Graphic file (type png)
 <use ellipsens_geometri.png>
-Package pdftex.def Info: ellipsens_geometri.png  used on input line 1273.
+Package pdftex.def Info: ellipsens_geometri.png  used on input line 1363.
 (pdftex.def)             Requested size: 142.26378pt x 128.20708pt.
 
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
@@ -1519,6 +1554,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [23 <./snedstöt.png> <./ellipsens_geometri.png>]
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 1384--1385
+[] 
+ []
+
+
+Overfull \hbox (34.94351pt too wide) detected at line 1405
+[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + [][] = [] + \OML/cm
+m/m/it/12 ![]x \OT1/cmr/m/n/12 + 2\OML/cmm/m/it/12 ^^P![][] \OT1/cmr/m/n/12 = [
+]
+ []
+
+
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
  [][][][][][][] 
  []
@@ -1532,6 +1579,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [24]
+Overfull \hbox (3.5069pt too wide) in paragraph at lines 1427--1428
+[]\OT1/phv/m/n/12 Med sv[]angningarnas amp-li-tud $\OML/cmm/m/it/12 X$ \OT1/phv
+/m/n/12 kan f[]orstoringsfaktorn
+ []
+
+
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
  [][][][][][][] 
  []
@@ -1544,22 +1597,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
-[25] (./main.aux)
+[25]
+Overfull \hbox (12.66666pt too wide) has occurred while \output is active
+ [][][][][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 38.93336pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.93336pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
+
+[26] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D4041FD025E7CD2AB865C1EA08F28B0D;16779.
+(rerunfilecheck)             Checksum: 96F14955C8D7A70ED15C507626603CC7;19579.
  ) 
 Here is how much of TeX's memory you used:
- 24836 strings out of 474104
- 451555 string characters out of 5745485
- 1969493 words of memory out of 5000000
- 46599 multiletter control sequences out of 15000+600000
- 596383 words of font info for 93 fonts, out of 8000000 for 9000
+ 24878 strings out of 474104
+ 452126 string characters out of 5745485
+ 1977493 words of memory out of 5000000
+ 46619 multiletter control sequences out of 15000+600000
+ 598622 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,87p,519b,898s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,16n,87p,524b,898s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></op
 t/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/tex
 live/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></opt/texlive/t
@@ -1581,10 +1647,10 @@ f-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></opt/texlive/texdir/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/wasy-
 type1/wasy10.pfb>
-Output written on main.pdf (25 pages, 338362 bytes).
+Output written on main.pdf (26 pages, 349677 bytes).
 PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
- 629 compressed objects within 7 object streams
- 148 named destinations out of 1000 (max. 500000)
- 868 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 787 PDF objects out of 1000 (max. 8388607)
+ 701 compressed objects within 8 object streams
+ 169 named destinations out of 1000 (max. 500000)
+ 988 words of extra memory for PDF output out of 10000 (max. 10000000)
 

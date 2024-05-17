@@ -368,6 +368,10 @@ INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/psnfss/omsphv.fd
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/psnfss/omsphv.fd
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/psnfss/omsphv.fd
