@@ -23,7 +23,9 @@ You can download the flashcards from the link above.
 
 You need LaTeX installed on your computer for the cards to work in Anki and might have to mess around a little with the preamble. Feel free to open an issue if you need help.
 
-You might have some luck changing "Sidhuvud" of the "Basic (Genanki)" notetype to: ```\documentclass[12pt]{article}\usepackage{graphicx} % Required for inserting images
+You might have some luck changing "Sidhuvud" of the "Basic (Genanki)" notetype to: 
+```latex
+\documentclass[12pt]{article}\usepackage{graphicx} % Required for inserting images
 \usepackage{pdflscape}
 \usepackage{multicol}
 \usepackage{amsmath}
