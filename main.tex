@@ -165,7 +165,7 @@ $$
 % DONOTREMOVE ANKI-FLASHCARD GUID 1190208710
 \begin{ankiflashcard}{Vad är ekvivalenta kraftsystem? Vad kännetecknas de av?}
 \subsection{Ekvivalenta kraftsystem}
-Relation mellan två system där kraftsumman \textit{och} momentsumman är densamma.
+Relation mellan två system där kraftsumman \textit{och} momentsumman är densamma i \underline{alla} punkter.
 \ruler
 \end{ankiflashcard}
 
@@ -177,7 +177,7 @@ Ett system där:
     \item Kraftsumman är samma
     \item Momentsumman är samma i \underline{en} punkt.
 \end{enumerate}
-$\rightarrow$ \underline{Ekvimomenta} kraftsystem är \underline{ekvivalenta}.
+$\rightarrow$ \underline{Ekvimomenta} kraftsystem är \underline{ekvivalenta}. Vad detta betyder rent praktiskt är att det räcker med att kolla momentsumman i en punkt - om den är lika m.a.p. en punkt är den lika m.a.p. alla punkter!
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1549934742
@@ -196,24 +196,24 @@ eller på vektorform: $\vec{r_{BA}} = M_O \times F_1$
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1730687558
-\begin{ankiflashcard}{Ange formeln och definitionen för reduktionsresultat.}
+\begin{ankiflashcard}{Ange definitionen för reduktionsresultat.}
 \subsection{Reduktionsresultatet}
 Innebär att vi \textit{reducerar} ett komplext kraftsystem till att bestå bara av \textit{\underline{en} kraft} och \textit{\underline{ett} moment}. Resultatet kallas ett reduktionsresultat med avseende på en punkt $P$.
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1756469926
-\begin{ankiflashcard}{Ange formeln för erättningsmoment}
+\begin{ankiflashcard}{Ange formeln för ersättningsmoment}
 Varje gång vi flyttar en kraft för att reducera kraftsystemet, måste vi lägga till ett moment för att  kompensera för flytten, ett \newline
 \textbf{ersättningsmoment:}
+ $$
+ \vec M_A = \vec{r_{AP}} \times \vec F
 $$
-\vec M_A = \vec{r_{AP}} \times \vec F
-$$
-Se figur nedan för beteckningar:
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=5cm]{ersättningsmoment.png}
-    \caption{Ersättningsmoment}
-\end{figure}
+% Se figur nedan för beteckningar:
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=5cm]{ersättningsmoment.png}
+%    \caption{Ersättningsmoment}
+% \end{figure}
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1590469722
@@ -256,7 +256,7 @@ $$
 A=2\pi y_G l\\ \implies y_G = \frac{A}{2\pi l}\left\{\begin{array}{l}A: \text{Area av yta efter rotation} \\y_G: \text{y-komponenten för masscentrum} \\l: \text{Längd av kurvan} \\\end{array}\right.
 $$
 \textit{Notera} att $A$ är botten-/mantelarean som den yta som bildas om du tänker dig att du skapar en rotationsvolym av din kurva.
-Exempel: du använder Pappus arearegel för en halvcirkelbåge. Då är rotationsarean en sfär, så $A = 4\pi r^2$. $l$ är däremot längden på din halvcirkel, dvs. $2\pi r$
+Exempel: du använder Pappus arearegel för en halvcirkelbåge. Då är rotationsarean en sfär, så $A = 4\pi r^2$. $l$ är däremot längden på din halvcirkel, dvs. $\pi r$
 \textit{Notera även} att denna regel appliceras genom att du i de praktiska fallen söker $y_G$.
 \end{ankiflashcard}
 
@@ -268,7 +268,7 @@ $$
 V = 2\pi y_G A\\
 \implies y_G = \frac{V}{2\pi A}
 $$
-\textit{Notera} att $A$ är arean av den yta som du roterar, och $V$ är volymen som bildas om du tänker dig att du skapar en rotationsvolym av din kurva.
+\textit{Notera} att $A$ är arean av den yta som du roterar, och $V$ är volymen som bildas om du tänker dig att du skapar en rotationsvolym av din yta.
 (\textit{skillnad från arearegeln!})
 Exempel: du använder Pappus arearegel för en halvcirkel\textit{skiva}. Då är rotationsvolymen en sfär, så $V = 4\pi r^3$. $A$ är däremot arean för din halvcirkelskiva, dvs. $\frac{\pi r^2}{2}$
 
@@ -707,7 +707,7 @@ Nedan är några exempel.
 \large{
 \begin{tabular}{|c|c|}
     \hline \\
-     \textbf{Typ} &  \textbf{Masscentrum} \\
+     \textbf{Typ} &  \textbf{Masscentrum (y-koordinat)} \\
      \hline
      Kvadratskiva & $\frac a 2$, där $a$ är sidlängden. \\
      \hline
@@ -1069,20 +1069,23 @@ Vinkelfrekvensen för dämpade svängningar: $$\omega_d = \omega_n \sqrt{1-\zeta
 \subsubsection{Olika typer av dämpningar}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1357403946
-\begin{ankiflashcard}{Definiera de olika typerna av dämpning}
+\begin{ankiflashcard}{Definiera de olika typerna av dämpning. Ange hur de beter sig samt vad för typ av rötter de är kopplade till.}
     
 \paragraph{\color{red}Stark\color{black}  \quad dämpning}, $\zeta > 1$:
+Två reella negativa rltter.
 Lösningen till ekvationen beskriver ingen periodisk rörelse. 
 Den passerar jämviktsläget en gång och går sedan mot 0.
 
 
 \paragraph{\color{orange}Kritisk\color{black} 
  \quad dämpning}, $\zeta = 1$:
-Se stark dämpning.
+En reell dubbelrot, $r=-\omega_n$.
+Se stark dämpning för vad denna svängning gör.
 
 
 \paragraph{\color{green}Svag\color{black} 
  \quad dämpning}, $\zeta < 1$:
+Två imaginära rötter.
 Lösningen till ekvationen beskriver en periodisk rörelse. Jämviktsläget passeras oändligt många gånger men amplituden minskar.
 \end{ankiflashcard}
 
@@ -1441,8 +1444,71 @@ $$\ddot x + \frac{k}{m} x +  \frac{c}{m} \dot x = \ddot x+\omega_n^2 x+2\zeta \o
 \appendixpage
 \section{Astronomisk ordlista}
 \begin{itemize}
-    \item 
+    \item \textbf{Apogeum}: Den punkt i en satellits eller himlakroppens bana som är längst bort från jorden.
+    \item \textbf{Perigeum}: Den punkt i en satellits eller himlakroppens bana som är närmast jorden.
+    \item \textbf{Zenit}: En punkt direkt ovanför betraktaren, det vill säga den punkt på himlen som ligger rakt mot jordens yta där betraktaren befinner sig.
+    \item \textbf{Geostationär satellit}: En satellit som kretsar runt jorden över ekvatorn och rör sig i samma hastighet som jordens rotation, vilket gör att den verkar vara stillastående från jordens yta.
+    \item \textbf{Polärsatellit}: En satellit som kretsar runt jorden i en bana som går nära över jordens poler, vilket möjliggör täckning av nästan hela planeten under dess omloppsbana.
 \end{itemize}
+\begin{ankiflashcard}{Repetera envariabeln: ange lösningarna till en typisk andra ordningens linjär homogen differentialekvation med konstanta koefficienter.}
+\section*{Repetition från envariabelanalys: Ordinära linjära differentialekvationer av andra ordningen}
+
+\subsection*{Homogena lösningar}
+
+Om ekvationen har två reella rötter:
+$$
+y = Ae^{r_1t} + Be^{r_2t}
+$$
+där \( A, B \) är godtyckliga reella konstanter, \( r_1, r_2 \) är rötterna till ekvationen.
+
+Om ekvationen har en dubbelrot:
+$$
+y = Ae^{rt} + Bte^{rt} = e^{rt}(A + Bt)
+$$
+där \( A, B \) är godtyckliga reella konstanter, \( r \) är dubbelroten till ekvationen.
+
+Om ekvationen har en komplex rot:
+$$
+y = e^{\alpha t}(A\cos(\beta t) + B\sin(\beta t))
+$$
+där \( A, B \) är godtyckliga reella konstanter och \( \alpha \) och \( \beta \) är från följande formel:
+$$
+r = \alpha \pm \beta i
+$$
+till exempel, om ekvationen har lösningen \( r = 2 \pm 3i \), då är \( \alpha = 2, \beta = 3 \).
+
+\subsection*{Partikulära lösningar}
+
+Om vi har en differentialekvation med ett högerled som inte är noll, löser man först den homogena ekvationen med högerledet satt till noll och sedan ansätter man värden för det icke-nollställda högerledet. Värden kan ansättas enligt följande tabell:
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+Högerled & Ansätt \\
+\hline
+Konstant, t.ex. \( 1 \) & \( y_p = a \) \\
+\hline
+1:a-gradspolynom, t.ex. \( t \) & \( y_p = at + b \) \\
+\hline
+2:a-gradspolynom, t.ex. \( t^2 \) & \( y_p = at^2 + bt + c \) \\
+\hline
+\( k \cdot e^{rt} \), t.ex. \( 2 \cdot e^{5t} \) & \( y_p = ae^{rt} \) \\
+\hline
+\( \sin(t) \) & \( y_p = a\sin(t) + b\cos(t) \) \\
+\hline
+\end{tabular}
+\end{center}
+
+Den resulterande lösningen fås genom att addera den partikulära lösningen och den homogena lösningen:
+$$
+y = y_h + y_p
+$$
+
+\subsection*{Resonans}
+
+Om det man tänker ansätta redan är en del av den homogena lösningen, kan man inte använda samma ansats. I sådana fall kan ansatsen multipliceras med \( t \).
+
+    
+\end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1503017280
 \begin{ankiflashcard}{Ange additionsformler för sinus och cosinus}
