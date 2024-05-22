@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  21 MAY 2024 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  22 MAY 2024 17:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1012,8 +1012,8 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
 (/opt/texlive/texdir/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
-Overfull \hbox (166.22406pt too wide) in paragraph at lines 168--171
-\OT1/phv/m/n/12 ment-sum-man []ar den-sam-ma.  []
+Overfull \hbox (234.61125pt too wide) in paragraph at lines 168--171
+\OT1/phv/m/n/12 ment-sum-man []ar den-sam-ma i $[]$ punk-ter.  []
  []
 
 
@@ -1027,11 +1027,6 @@ Overfull \hbox (69.25786pt too wide) in paragraph at lines 194--197
 []$
  []
 
-<ersättningsmoment.png, id=511, 478.78876pt x 251.94125pt>
-File: ersättningsmoment.png Graphic file (type png)
-<use ersättningsmoment.png>
-Package pdftex.def Info: ersättningsmoment.png  used on input line 214.
-(pdftex.def)             Requested size: 142.26378pt x 74.86021pt.
 
 Overfull \hbox (16.97958pt too wide) in paragraph at lines 242--243
 []\OT1/phv/m/sl/12 Flytt av re-duk-tions-re-sul-tat \OT1/phv/m/n/12 ger att mo-
@@ -1164,7 +1159,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
-[7 <./ersättningsmoment.png>]
+[7]
 Overfull \hbox (10.00002pt too wide) in paragraph at lines 558--559
 [][] 
  []
@@ -1277,19 +1272,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [13]
-Overfull \hbox (12.66666pt too wide) has occurred while \output is active
- [][][][][][][] 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 38.93336pt, for example:
-(fancyhdr)                \setlength{\headheight}{38.93336pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
-
-[14]
 Overfull \hbox (9.19792pt too wide) in paragraph at lines 789--791
 \OT1/phv/m/sl/12 (observera att $[] [] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\O
 ML/cmm/m/it/12 sin^^R$ \OT1/phv/m/sl/12 och $[] [] \OT1/cmr/m/n/12 =
@@ -1373,17 +1355,48 @@ Overfull \hbox (9.19647pt too wide) in paragraph at lines 1058--1059
  []
 
 
-Overfull \hbox (19.99661pt too wide) in paragraph at lines 1074--1077
-\OT1/phv/m/n/12 skri-ver ing-en pe-ri-o-disk r[]orelse. Den pas-se-rar j[]amvik
-tsl[]aget
+Overfull \hbox (19.84755pt too wide) in paragraph at lines 1074--1078
+\OT1/phv/m/n/12 L[]osningen till ek-va-tio-nen be-skri-ver ing-en pe-ri-o-disk 
+r[]orelse.
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 1127--1128
+Overfull \hbox (16.07712pt too wide) in paragraph at lines 1087--1091
+ [][] \OT1/qag/b/n/10 Svag[]  d[]ampning[][][] \OT1/phv/m/n/12 , $\OML/cmm/m/it
+/12 ^^P < \OT1/cmr/m/n/12 1$\OT1/phv/m/n/12 : Tv[]a ima-gin[]ara r[]otter. L[]o
+sningen
+ []
+
+
+Overfull \hbox (21.16039pt too wide) in paragraph at lines 1087--1091
+\OT1/phv/m/n/12 till ek-va-tio-nen be-skri-ver en pe-ri-o-disk r[]orelse. J[]am
+viktsl[]aget
+ []
+
+
+Overfull \hbox (5.48398pt too wide) in paragraph at lines 1087--1091
+\OT1/phv/m/n/12 pas-se-ras o[]andligt m[]anga g[]anger men amp-li-tu-den mins-
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 1130--1131
 [][] 
  []
 
 
+Overfull \hbox (12.66666pt too wide) has occurred while \output is active
+ [][][][][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 38.93336pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.93336pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
+
+[14]
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
  [][][][][][][] 
  []
@@ -1423,26 +1436,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [17]
-Overfull \hbox (12.66666pt too wide) has occurred while \output is active
- [][][][][][][] 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 38.93336pt, for example:
-(fancyhdr)                \setlength{\headheight}{38.93336pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
-
-[18]
-Overfull \hbox (45.16055pt too wide) in paragraph at lines 1231--1233
+Overfull \hbox (45.16055pt too wide) in paragraph at lines 1234--1236
 $\OML/cmm/m/it/12 III:$ \OT1/phv/m/sl/12 ``Tv[]a krop-par p[]averkar varand-ra 
 med li-ka men mot[]atriktade
  []
 
 
-Overfull \hbox (9.26245pt too wide) in paragraph at lines 1255--1256
+Overfull \hbox (9.26245pt too wide) in paragraph at lines 1258--1259
 \OT1/phv/m/n/12 En po-ten-ti-ell ener-gi []ar en po-ten-ti-al-funk-tion till et
 t kraftf[]alt.
  []
@@ -1460,14 +1460,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
-[19]
-Overfull \hbox (9.82646pt too wide) in paragraph at lines 1277--1279
+[18]
+Overfull \hbox (9.82646pt too wide) in paragraph at lines 1280--1282
 []\OT1/phv/m/n/12 I ett \OT1/phv/m/sl/12 kon-ser-va-tivt \OT1/phv/m/n/12 kraftf
 []alt \OT1/phv/m/sl/12 be-va-ras \OT1/phv/m/n/12 to-ta-la me-ka-nis-ka ener-
  []
 
 
-Overfull \hbox (2.01517pt too wide) in paragraph at lines 1287--1291
+Overfull \hbox (2.01517pt too wide) in paragraph at lines 1290--1294
 \OT1/phv/m/sl/12 ``Arbetet utf[]ort mel-lan tv[]a punk-ter []ar li-ka med []and
 ringen
  []
@@ -1485,7 +1485,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
+[19]
+Overfull \hbox (12.66666pt too wide) has occurred while \output is active
+ [][][][][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 38.93336pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.93336pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
+
 [20]
+Overfull \hbox (33.77199pt too wide) in paragraph at lines 1333--1334
+[]\OT1/phv/m/sl/12 inelastisk  \OT1/phv/m/n/12 (par-tik-lar-na r[]or sig som en
+ sam-manh[]angande
+ []
+
+
+Overfull \hbox (4.42804pt too wide) in paragraph at lines 1333--1334
+\OT1/phv/m/n/12 mas-sa ef-ter kol-li-sio-nen) - studs-tal $\OT1/cmr/m/n/12 0$\O
+T1/phv/m/n/12 , [] \OT1/phv/m/sl/12 max-i-mal [] \OT1/phv/m/n/12 ener-
+ []
+
+<snedstöt.png, id=619, 299.1175pt x 271.0125pt>
+File: snedstöt.png Graphic file (type png)
+<use snedstöt.png>
+Package pdftex.def Info: snedstöt.png  used on input line 1364.
+(pdftex.def)             Requested size: 142.26378pt x 128.89767pt.
+
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
  [][][][][][][] 
  []
@@ -1499,46 +1529,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
 [21]
-Overfull \hbox (33.77199pt too wide) in paragraph at lines 1330--1331
-[]\OT1/phv/m/sl/12 inelastisk  \OT1/phv/m/n/12 (par-tik-lar-na r[]or sig som en
- sam-manh[]angande
- []
-
-
-Overfull \hbox (4.42804pt too wide) in paragraph at lines 1330--1331
-\OT1/phv/m/n/12 mas-sa ef-ter kol-li-sio-nen) - studs-tal $\OT1/cmr/m/n/12 0$\O
-T1/phv/m/n/12 , [] \OT1/phv/m/sl/12 max-i-mal [] \OT1/phv/m/n/12 ener-
- []
-
-<snedstöt.png, id=627, 299.1175pt x 271.0125pt>
-File: snedstöt.png Graphic file (type png)
-<use snedstöt.png>
-Package pdftex.def Info: snedstöt.png  used on input line 1361.
-(pdftex.def)             Requested size: 142.26378pt x 128.89767pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1362     \caption{Snedstöt.}
-                               
-Overfull \hbox (12.66666pt too wide) has occurred while \output is active
- [][][][][][][] 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 38.93336pt, for example:
-(fancyhdr)                \setlength{\headheight}{38.93336pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
-
-[22]
-<ellipsens_geometri.png, id=632, 335.2525pt x 302.12875pt>
+<ellipsens_geometri.png, id=625, 335.2525pt x 302.12875pt>
 File: ellipsens_geometri.png Graphic file (type png)
 <use ellipsens_geometri.png>
-Package pdftex.def Info: ellipsens_geometri.png  used on input line 1371.
+Package pdftex.def Info: ellipsens_geometri.png  used on input line 1374.
 (pdftex.def)             Requested size: 142.26378pt x 128.20708pt.
 
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
@@ -1553,13 +1547,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
-[23 <./snedstöt.png> <./ellipsens_geometri.png>]
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 1392--1393
+[22 <./snedstöt.png> <./ellipsens_geometri.png>]
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 1395--1396
 [] 
  []
 
 
-Overfull \hbox (34.94351pt too wide) detected at line 1413
+Overfull \hbox (34.94351pt too wide) detected at line 1416
 [] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + [][] = [] + \OML/cm
 m/m/it/12 ![]x \OT1/cmr/m/n/12 + 2\OML/cmm/m/it/12 ^^P![][] \OT1/cmr/m/n/12 = [
 ]
@@ -1578,13 +1572,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
-[24]
-Overfull \hbox (3.5069pt too wide) in paragraph at lines 1435--1436
+[23]
+Overfull \hbox (3.5069pt too wide) in paragraph at lines 1438--1439
 []\OT1/phv/m/n/12 Med sv[]angningarnas amp-li-tud $\OML/cmm/m/it/12 X$ \OT1/phv
 /m/n/12 kan f[]orstoringsfaktorn
  []
 
 
+Overfull \hbox (12.66666pt too wide) has occurred while \output is active
+ [][][][][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 38.93336pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.93336pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
+
+[24]
 Overfull \hbox (12.66666pt too wide) has occurred while \output is active
  [][][][][][][] 
  []
@@ -1610,19 +1617,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
 
-[26] (./main.aux)
+[26]
+Overfull \hbox (12.66666pt too wide) has occurred while \output is active
+ [][][][][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 38.93336pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.93336pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
+
+[27]
+Overfull \hbox (12.66666pt too wide) has occurred while \output is active
+ [][][][][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 38.93336pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.93336pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-26.93336pt}.
+
+[28] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8EB825AE0B37F01516021B7DCE5AF35E;19596.
+(rerunfilecheck)             Checksum: D669E840DE565F57E75C2D3BDA926192;19596.
  ) 
 Here is how much of TeX's memory you used:
- 24880 strings out of 474104
- 452152 string characters out of 5745485
- 1977493 words of memory out of 5000000
- 46620 multiletter control sequences out of 15000+600000
+ 24879 strings out of 474104
+ 452012 string characters out of 5745485
+ 1978493 words of memory out of 5000000
+ 46613 multiletter control sequences out of 15000+600000
  598622 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,16n,87p,524b,898s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1647,10 +1680,10 @@ f-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></opt/texlive/texdir/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/wasy-
 type1/wasy10.pfb>
-Output written on main.pdf (26 pages, 349834 bytes).
+Output written on main.pdf (28 pages, 344019 bytes).
 PDF statistics:
- 791 PDF objects out of 1000 (max. 8388607)
- 705 compressed objects within 8 object streams
- 170 named destinations out of 1000 (max. 500000)
- 996 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 802 PDF objects out of 1000 (max. 8388607)
+ 716 compressed objects within 8 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 991 words of extra memory for PDF output out of 10000 (max. 10000000)
 
