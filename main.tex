@@ -886,11 +886,20 @@ $\implies$ \textbf{(Väldigt) användbar följd:} Om $M_O=0$ är $H_O$ konstant.
 
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 2114872868
-\begin{ankiflashcard}{Definiera vad impuls är. Definiera även kraftimpulslagen.}
-    
+\begin{ankiflashcard}{Definiera vad kraftimpuls är. Definiera även kraftimpulslagen.}
 \subsection{Impuls}
-Impuls är \textit{ändringen av rörelsemängden} vid en viss tidpunkt. Dvs.
-$$\text{impuls: } I = \Delta \vec p = m \Delta \vec v = \underbrace{F\Delta t =  \int_{t_1}^{t_2} \vec F dt}_{\text{kallas \textit{kraftimpuls(lagen)}}}$$
+Impuls betraktar inverkan från krafter eller moment under en ändlig tid.
+\subsubsection{Kraftimpuls}
+KraftImpuls är \textit{ändringen av rörelsemängden} vid en viss tidpunkt. Dvs.
+$$\text{Kraftimpuls: } I = \Delta \vec p = m \Delta \vec v = \underbrace{F\Delta t =  \int_{t_1}^{t_2} \vec F dt}_{\text{kallas \textit{kraftimpuls(lagen)}}}$$
+\end{ankiflashcard}
+\begin{ankiflashcard}{Definera momentinpulslagen}
+    
+\subsubsection{Momentimpulslagen}
+Det gäller även för moment att
+$$
+\Delta \vec H_O = \int_{t_1}^{t_2} \vec M_O \text{dt}
+$$
 \end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1269641212
@@ -1243,6 +1252,9 @@ $$
 U_{1-2} = \int_{\vec r_1}^{\vec r_2} \vec F \cdot \vec{dr}
 $$
 \end{ankiflashcard}
+\begin{ankiflashcard}{Definiera arbete utfört av ett moment}
+\textbf{Arbetet utfört av ett moment} ges av $$U=Md\theta$$ där $d\theta$ är ändringen av vinkeln där momentet vrider kring.
+\end{ankiflashcard}
 
 % DONOTREMOVE ANKI-FLASHCARD GUID 1229892459
 \begin{ankiflashcard}{Definiera effekt.}
@@ -1461,23 +1473,23 @@ Om ekvationen har två reella rötter:
 $$
 y = Ae^{r_1t} + Be^{r_2t}
 $$
-där \( A, B \) är godtyckliga reella konstanter, \( r_1, r_2 \) är rötterna till ekvationen.
+där $ A, B $ är godtyckliga reella konstanter, $ r_1, r_2 $ är rötterna till ekvationen.
 
 Om ekvationen har en dubbelrot:
 $$
 y = Ae^{rt} + Bte^{rt} = e^{rt}(A + Bt)
 $$
-där \( A, B \) är godtyckliga reella konstanter, \( r \) är dubbelroten till ekvationen.
+där $ A, B $ är godtyckliga reella konstanter, $ r $ är dubbelroten till ekvationen.
 
 Om ekvationen har en komplex rot:
 $$
 y = e^{\alpha t}(A\cos(\beta t) + B\sin(\beta t))
 $$
-där \( A, B \) är godtyckliga reella konstanter och \( \alpha \) och \( \beta \) är från följande formel:
+där $ A, B $ är godtyckliga reella konstanter och $ \alpha $ och $ \beta $ är från följande formel:
 $$
-r = \alpha \pm \beta i
+r = \alpha \pm \beta iprinciple of virtual work
 $$
-till exempel, om ekvationen har lösningen \( r = 2 \pm 3i \), då är \( \alpha = 2, \beta = 3 \).
+till exempel, om ekvationen har lösningen $ r = 2 \pm 3i $, då är $ \alpha = 2, \beta = 3 $.
 
 \subsection*{Partikulära lösningar}
 
@@ -1487,15 +1499,15 @@ Om vi har en differentialekvation med ett högerled som inte är noll, löser ma
 \hline
 Högerled & Ansätt \\
 \hline
-Konstant, t.ex. \( 1 \) & \( y_p = a \) \\
+Konstant, t.ex. $ 1 $ & $ y_p = a $ \\
 \hline
-1:a-gradspolynom, t.ex. \( t \) & \( y_p = at + b \) \\
+1:a-gradspolynom, t.ex. $ t $ & $ y_p = at + b $ \\
 \hline
-2:a-gradspolynom, t.ex. \( t^2 \) & \( y_p = at^2 + bt + c \) \\
+2:a-gradspolynom, t.ex. $ t^2 $ & $ y_p = at^2 + bt + c $ \\
 \hline
-\( k \cdot e^{rt} \), t.ex. \( 2 \cdot e^{5t} \) & \( y_p = ae^{rt} \) \\
+$ k \cdot e^{rt} $, t.ex. $ 2 \cdot e^{5t} $ & $ y_p = ae^{rt} $ \\
 \hline
-\( \sin(t) \) & \( y_p = a\sin(t) + b\cos(t) \) \\
+$ \sin(t) $ & $ y_p = a\sin(t) + b\cos(t) $ \\
 \hline
 \end{tabular}
 \end{center}
@@ -1507,7 +1519,7 @@ $$
 
 \subsection*{Resonans}
 
-Om det man tänker ansätta redan är en del av den homogena lösningen, kan man inte använda samma ansats. I sådana fall kan ansatsen multipliceras med \( t \).
+Om det man tänker ansätta redan är en del av den homogena lösningen, kan man inte använda samma ansats. I sådana fall kan ansatsen multipliceras med $ t $.
 
     
 \end{ankiflashcard}
@@ -1519,5 +1531,23 @@ Om det man tänker ansätta redan är en del av den homogena lösningen, kan man
     $$\sin(\alpha\pm\beta)=\sin \alpha \cos \beta \pm \cos \alpha \sin \beta$$
      $$\cos(\alpha\pm\beta)=\cos \alpha \cos \beta \pm \sin \alpha \sin \beta$$
 \end{ankiflashcard}
+\begin{ankiflashcard}{Förklara virtuellt arbete.}
+    
+\section{Virtuellt arbete}
+(gås igenom i boken). Bra för kopplade system. \textbf{Princip:}
+\begin{enumerate}
+    \item Betrakta en liten förflyttning av systemet från det aktuella läget, t.ex. att en arm roterar litegrann åt vänster.
+    \item Inför t.ex. en $x$-axel för att beskriva läget av den partikel du vill undersöka, t.ex. en kolv som är kopplad till armen i steg 1.
+    \item Skriv upp en ekvation för ursprungliga läget av partikeln relaterat till det partikeln är kopplad till, exempelvis $$x(\theta)=3l\cos \theta$$
+    \item Derivera för att få skillnaden av läget vid en liten förflyttning av den relevanta variabeln som styr läget (från exemplet i (3) skulle det vara $$dx=\frac{dx}{d\theta}=-3l\sin \theta d\theta$$
+    \item Ta fram ett uttryck för de krafter som utför arbete. Kom ihåg att ett moment utför arbetet $Md\theta$! 
+    
+    Hypotetiskt exempel
+    \textbf{Om statikproblem}: $$\delta U = \sum \vec{F}\cdot \vec{dr} = Fdx-Md\theta$$
+    \textbf{Om dynamikproblem}: sätt istället $$\delta U = (\sum \vec F -m\vec a)\cdot \vec{dr} = 0$$
+    \item Lös ut eventuella eftersökta storheter.
+\end{enumerate}
+\end{ankiflashcard}
+
 \end{appendix}
 \end{document}
